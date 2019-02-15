@@ -1,0 +1,9 @@
+Sample submission scripts directory
+
+This directory contains samples submission scripts for Lunarc's new Aurora service.  Please note that these scripts recommend out current recommendations.  These recommendations and the scripts can change in furture as we gain experience with the system. 
+
+For an overview on how to use slurm, please consult the slurm guide for Alarik and Erik: https://docs.google.com/document/d/1KFWF7-mLMOzDtO-XkDrCjsXLhGBD-yiEZiAICdSqTnA/edit?authkey=CKa_hfYB&pli=
+
+In this directly we provide scripts to run MPI jobs on the new Aurora.  The Aurora nodes offer 20 cores each.  Users should aim to used multiples of 20 tasks (total of 20, 40, 60, ... tasks).  On Aurora two different MPI libraries are currently supported: OpenMPI and Intel MPI.  Currently these need different run scripts.  We provide sample script for both of these.  The samples utilise 60 tasks, please adopt them for your needs.
+
+To find out which MPI library your package is using, check with "module list" the modules you have loaded after activating the toolchain or application module.  If the list of modules contains a module named "impi", you are using the Intel MPI library.  If you have loaded an module named "OpenMPI" you are using OpenMPI.

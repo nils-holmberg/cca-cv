@@ -1,0 +1,130 @@
+  210  module keyword tensor
+  211  cd caml-tmp/
+  212  ls tmp/
+  213  cat tmp/mods-load-TensorFlow-1.8.0-Python-3.6.4 
+  214  head log/bash.txt 
+  215  for m in $(cat tmp/mods-load-TensorFlow-1.8.0-Python-3.6.4 | tr '\n' ' ' | tr -s ' '); do module load $m; done
+  216  module list
+  217  man module
+  218  cd ../caml-tfk/
+  219  ls
+  220  git clone https://github.com/davidsandberg/facenet.git
+  221  ls -l
+  222  du -hs facenet/
+  223  ls -l facenet/
+  224  mkdir tmp src log csv img
+  225  wget http://vis-www.cs.umass.edu/lfw/lfw.tgz
+  226  tar -xvzf lfw.tgz 
+  227  du -hs lfw
+  228  ls -l lfw
+  229  ls -l lfw/
+  230  echo $PYTHONPATH 
+  231  man export
+  232  cd facenet/src/
+  233  pwd
+  234  export PYTHONPATH="${PYTHONPATH}:/home/humlnhl/caml-tfk/facenet/src"
+  235  echo $PYTHONPATH 
+  236  cd ..
+  237  vim src/align.sh
+  238  ls -l ../
+  239  mv ../lfw.tgz ../tmp/
+  240  mkdir ../lfw_mtcnnpy_160
+  241  ls -l ../
+  242  cd ../lfw/
+  243  pwd
+  244  cd ../
+  245  cd facenet/
+  246  ls -l src/
+  247  vim src/align.sh 
+  248  mv src/align.sh ../src/
+  249  cat ../src/align.sh 
+  250  for N in {1..4}; do python src/align/align_dataset_mtcnn.py /home/humlnhl/caml-tfk/lfw /home/humlnhl/caml-tfk/lfw_mtcnnpy_160 --image_size 160 --margin 32 --random_order --gpu_memory_fraction 0.25 & done
+  251  ls -l ../lfw_mtcnnpy_160/
+  252  module spider sklearn
+  253  head -n30 src/align/align_dataset_mtcnn.py 
+  254  head -n50 src/align/align_dataset_mtcnn.py 
+  255  egrep sklearn src/*.py
+  256  python
+  257  cd ../
+  258  ls
+  259  git clone https://github.com/scikit-learn/scikit-learn.git
+  260  ls -l scikit-learn/
+  261  du -hs scikit-learn/
+  262  du -hs scikit-learn/sklearn/
+  263  ls -l scikit-learn/sklearn/
+  264  cd scikit-learn/sklearn/
+  265  pwd
+  266  history | grep -i path
+  267  export PYTHONPATH="${PYTHONPATH}:/home/humlnhl/caml-tfk/scikit-learn/sklearn"
+  268  cd
+  269  cd caml-tfk/
+  270  python
+  271  export PYTHONPATH="${PYTHONPATH}:/home/humlnhl/caml-tfk/scikit-learn"
+  272  python
+  273  pip install -U scikit-learn
+  274  man pip
+  275  pip help
+  276  module keyword matlab
+  277  pip install --user scikit-learn
+  278  rm -Rf scikit-learn/
+  279  ls -l
+  280  python
+  281  cd facenet/
+  282  cat ../src/align.sh 
+  283  module list
+  284  history | grep alig
+  285  head -n50 src/align/align_dataset_mtcnn.py 
+  286  history | grep skle
+  287  egrep sklearn src/*.py
+  288  module keyword opencv
+  289  egrep opencv src/*.py
+  290  egrep cv2 src/*.py
+  291  module keyword cv2
+  292  python
+  293  history | grep python
+  294  for N in {1..4}; do python src/align/align_dataset_mtcnn.py /home/humlnhl/caml-tfk/lfw /home/humlnhl/caml-tfk/lfw_mtcnnpy_160 --image_size 160 --margin 32 --random_order --gpu_memory_fraction 0.25 & done
+  295  history | grep pip
+  296  pip install --user Pillow
+  297  for N in {1..4}; do python src/align/align_dataset_mtcnn.py /home/humlnhl/caml-tfk/lfw /home/humlnhl/caml-tfk/lfw_mtcnnpy_160 --image_size 160 --margin 32 --random_order --gpu_memory_fraction 0.25 & done
+  298  ls -l ../lfw_mtcnnpy_160/
+  299  ls -l ../lfw_mtcnnpy_160/Zhong_Nanshan/
+  300  find ../lfw/ -iname '*.jpg' | wc
+  301  rm -Rf ../lfw_mtcnnpy_160/*
+  302  cat ../../caml-tmp/log/bash.txt 
+  303  ls -l ~/
+  304  cd
+  305  cat caml-tmp/src/job-script.sh 
+  306  cp caml-tmp/src/job-script.sh caml-tfk/src/
+  307  cd caml-tfk/
+  308  vim src/job-script.sh 
+  309  cat src/align.sh 
+  310  vim src/job-script.sh 
+  311  cd facenet/src/align/
+  312  pwd
+  313  cd -
+  314  vim src/job-script.sh 
+  315  man sbatch
+  316  ls -l lfw_mtcnnpy_160/
+  317  sbatch src/job-script.sh
+  318  ls -l lfw_mtcnnpy_160/
+  319  ls -l 
+  320  ls -l lfw_mtcnnpy_160/
+  321  cat src/job-script.sh 
+  322  man sbatch
+  323  ls -l /home/humlnhl/caml-tfk/facenet/src/align/align_dataset_mtcnn.py
+  324  ls -l lfw_mtcnnpy_160/
+  325  ls -l
+  326  cat slurm-1926894.out 
+  327  cat ../caml-tmp/slurm-1583308.out 
+  328  cat ../caml-tmp/slurm-1583289.out 
+  329  ls -l lfw_mtcnnpy_160/
+  330  ls -l ../
+  331  ls -l facenet/
+  332  ls -l facenet/src/
+  333  ls -l facenet/src/align/
+  334  cat src/job-script.sh 
+  335  ls -l ../caml-tmp/src/job-script.py 
+  336  cat ../caml-tmp/src/job-script.py 
+  337  history | tail -n100
+  338  history | tail -n120
+  339  history | tail -n130 > log/history-190116.txt

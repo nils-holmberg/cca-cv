@@ -1,0 +1,100 @@
+  909  $PYTHONPATH=""
+  910  PYTHONPATH=""
+  911  cd tensorflow/models/research/
+  912  pwd
+  913  cd -
+  914  vim log/bash.txt 
+  915  module purge 
+  916  head log/bash.txt 
+  917  for m in $(cat tmp/mods-load-TensorFlow-1.8.0-Python-3.6.4 | tr '\n' ' ' | tr -s ' '); do module load $m; done
+  918  for m in $(cat tmp/mods-load-Tkinter-3.6.4-Python-3.6.4 | tr '\n' ' ' | tr -s ' '); do module load $m; done
+  919  # coco
+  920  export PYTHONPATH=$PYTHONPATH:/home/humlnhl/caml-img/tensorflow/models/research
+  921  export PYTHONPATH=$PYTHONPATH:/home/humlnhl/caml-img/tensorflow/models/research/slim
+  922  # facenet
+  923  export PYTHONPATH="${PYTHONPATH}:/home/humlnhl/caml-img/facenet/src"
+  924  history | tail
+  925  history | tail -n20
+  926  python src/obj-det-g3doc.py 
+  927  vim log/bash.txt 
+  928  > src/setup-env.sh
+  929  vim src/setup-env.sh 
+  930  head src/setup-env.sh 
+  931  export PYTHONPATH=$PYTHONPATH:/home/humlnhl/caml-img/tensorflow/models/research/object_detection
+  932  python src/obj-det-g3doc.py 
+  933  vim src/obj-det-g3doc.py 
+  934  ls -l 
+  935  ls -l src/
+  936  cat src/job-script.sh 
+  937  mv src/job-script.sh src/lunarc-sbatch/
+  938  cat src/lfw-align.sh 
+  939  cat src/lfw-align-sbatch.sh 
+  940  exit
+  941  cd caml-img/
+  942  cat src/setup-env.sh 
+  943  bash src/setup-env.sh 
+  944  history | tail -n20
+  945  python src/obj-det-g3doc.py 
+  946  cat src/lfw-align-sbatch.sh 
+  947  module list 
+  948  cat src/setup-env.sh 
+  949  for m in $(cat tmp/mods-load-TensorFlow-1.8.0-Python-3.6.4 | tr '\n' ' ' | tr -s ' '); do module load $m; done
+  950  for m in $(cat tmp/mods-load-Tkinter-3.6.4-Python-3.6.4 | tr '\n' ' ' | tr -s ' '); do module load $m; done
+  951  # coco
+  952  export PYTHONPATH=$PYTHONPATH:/home/humlnhl/caml-img/tensorflow/models/research
+  953  export PYTHONPATH=$PYTHONPATH:/home/humlnhl/caml-img/tensorflow/models/research/slim
+  954  export PYTHONPATH=$PYTHONPATH:/home/humlnhl/caml-img/tensorflow/models/research/object_detection
+  955  # facenet
+  956  export PYTHONPATH="${PYTHONPATH}:/home/humlnhl/caml-img/facenet/src"
+  957  #
+  958  # can i comment out sbatch statements ?
+  959  echo $PYTHONPATH 
+  960  vim src/lfw-align-sbatch.sh 
+  961  python src/obj-det-g3doc.py 
+  962  squeue 
+  963  cd src/lunarc-sbatch/
+  964  ls -l
+  965  cat job-script.sh 
+  966  cat ../src/lfw-align-sbatch.sh 
+  967  cat ../../src/lfw-align-sbatch.sh 
+  968  cat -n ../../src/lfw-align-sbatch.sh 
+  969  cat -n ../../src/lfw-align-sbatch.sh | head -n18
+  970  cat ../../src/lfw-align-sbatch.sh | head -n18 > test-sbatch.sh
+  971  #scancel <job-id>
+  972  #squeue <user-id>
+  973  vim test-sbatch.sh 
+  974  # job dependencies
+  975  #sbatch -d afterok:<job-id>
+  976  bash test-sbatch.sh 
+  977  sbatch test-sbatch.sh 
+  978  ls -l
+  979  scancel 2059866
+  980  ls -l
+  981  man squeue 
+  982  squeue -j 2059866
+  983  # sbatch resource headers
+  984  echo $SNIC_TMP 
+  985  echo $SLURM
+  986  # default memory limit 3100 MB per core
+  987  projinfo 
+  988  projinfo -p lu
+  989  man wait
+  990  cd ~/caml-img/
+  991  module purge
+  992  cat src/setup-env.sh 
+  993  for m in $(cat tmp/mods-load-TensorFlow-1.10.1-Python-2.7.15 | tr '\n' ' ' | tr -s ' '); do module load $m; done
+  994  module list
+  995  module purge
+  996  module list
+  997  for m in $(cat tmp/mods-load-TensorFlow-1.10.1-Python-2.7.15 | tr '\n' ' ' | tr -s ' '); do module load $m; done
+  998  module list
+  999  python
+ 1000  exit
+ 1001  module keyword tensor
+ 1002  module keyword tensorflow
+ 1003  module load TensorFlow/1.12.0-Python-3.6.4
+ 1004  module spider TensorFlow/1.12.0-Python-3.6.4
+ 1005  module spider TensorFlow/1.12.0-Python-2.7.15
+ 1006  history | tail -n100
+ 1007  cd caml-img/
+ 1008  history | tail -n100 > log/history-190215.txt
