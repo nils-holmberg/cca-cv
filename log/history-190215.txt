@@ -1,3 +1,25 @@
+  887  bash src/lfw-validate.sh
+  888  cat log/bash.txt 
+  889  for m in $(cat tmp/mods-load-TensorFlow-1.8.0-Python-3.6.4 | tr '\n' ' ' | tr -s ' '); do module load $m; done
+  890  bash src/lfw-validate.sh
+  891  ls -l src/
+  892  python src/obj-det-g3doc.py 
+  893  cat log/bash.txt 
+  894  for m in $(cat tmp/mods-load-Tkinter-3.6.4-Python-3.6.4 | tr '\n' ' ' | tr -s ' '); do module load $m; done
+  895  python src/obj-det-g3doc.py 
+  896  echo $PYTHONPATH
+  897  head -n src/obj-det-g3doc.py 
+  898  head -n30 src/obj-det-g3doc.py 
+  899  grep -i path log/history-190212.txt 
+  900  vim log/bash.txt 
+  901  # coco
+  902  export PYTHONPATH=$PYTHONPATH:/home/humlnhl/caml-img/tensorflow/models/research/object_detection
+  903  # facenet
+  904  export PYTHONPATH="${PYTHONPATH}:/home/humlnhl/caml-img/facenet/src"
+  905  echo $PYTHONPATH 
+  906  history | tail -n20
+  907  python src/obj-det-g3doc.py 
+  908  export PYTHONPATH=$PYTHONPATH:`pwd`:`pwd`/slim
   909  $PYTHONPATH=""
   910  PYTHONPATH=""
   911  cd tensorflow/models/research/
@@ -98,3 +120,31 @@
  1006  history | tail -n100
  1007  cd caml-img/
  1008  history | tail -n100 > log/history-190215.txt
+ 1009  ls -l 
+ 1010  ls -l ..ge
+ 1011  ls -l get/
+ 1012  ls -l get/cocoapi/
+ 1013  man git
+ 1014  git init
+ 1015  ls -la
+ 1016  git add -i src/ log/
+ 1017  git add src/ log/
+ 1018  > .gitignore
+ 1019  > README.md
+ 1020  vim .gitignore 
+ 1021  vim README.md 
+ 1022  git add -v README.md .gitignore
+ 1023  git status 
+ 1024  git commit -m "caml-img initial commit, several untracked files"
+ 1025  git config --global user.name "nh"
+ 1026  git config --global user.email nils.holmberg@outlook.com
+ 1027  git config --global user.name "nils-holmberg"
+ 1028  git commit --amend --reset-author
+ 1029  git status 
+ 1030  git remote add origin https://github.com/nils-holmberg/caml-img.git
+ 1031  git push -u origin master
+ 1032  # generate personal access token
+ 1033  # 3a5630ad46f37ea3ea02ebbdef0f9d9a78815a6f
+ 1034  git push -u origin master
+ 1035  # update file
+ 1036  history | tail -n150 > log/history-190215.txt 
