@@ -1,10 +1,19 @@
 # computational content analysis, computer vision
 
-## web scraping
-- images, videos, webpages
+## automated web scraping
+- images, videos, web pages
 
-## low-level ca
-- pixels, colors, dimensions
+## low-level content analysis
+- pixels, colors, dimensions, edges, saliency
+
+## image feature extraction
+- low, mid, high level features
+
+## image similarity
+- image embeddings in vector space?
+
+## image classification
+- does image contain faces, people or not
 
 ## object detection
 - detect basic object classes
