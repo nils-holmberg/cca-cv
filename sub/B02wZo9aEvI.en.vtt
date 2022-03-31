@@ -1,0 +1,5300 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:05.040 --> 00:00:07.990 align:start position:0%
+ 
+so welcome to this  workshop on how to create a simple  online survey experiment  uh i am neil swanberry and i work at  strategic communication in uh at lund  university  and i have developed the contents of  this workshop together with my  uh colleague  marlin sillinger at  the department of  service management  and the background to this  workshop is that we think  there is a need for some simple tools to  build an experiment  that is also  free of charge so um we know that there  are some some tools that cost you money  um but  we would like to  do this  without any licensing fees and so on  so on this presentation  on this workshop i will start with  showing you a couple of slides  and then we will do a hands-on session  where we try to  create an online experiment using google  documents  so  the whole workshop basically consists of  these two steps  we will  create the survey experiment  and then we will also  analyze some experiment data so  for example if you run an experiment you  have a  control condition  and you collect data on the control  condition and you have  a treatment condition  where you collect some data and then at  the end  you want to compare means for example  between these two conditions  so  we will basically  dedicate most of this workshop to the  first part creating a survey experiment  and uh doing an experiment is a lot of  work  in all the different stages and  it's really important to do your  literature review to really investigate  previous research  that is connected to  the kind of experiment that you want to  run  because this will help you  find out what has been done before  and how you can  contribute something new and you can  also formulate hypotheses  about  your expected results  and this is the first step and when you  have done the first step  you can go on to actually design the  experiment and decide what will be your  measurements what are you going to  measure in your experiment  and you can also decide the different  conditions where you will  do your mesh measurements  so for example a control condition and a  treatment condition  and this is often called an a b test  so  a typical example is in advertising you  wanted to test out  with which version of two online adverts  that performs the best  so there's a lot of stuff  to cover when you do an experiment and  we will only jump into the practical  stuff here  so to provide some context for this  experiment workshop we need some kind of  research question  and the research question in this case  is how can we improve  online  banner advertising or display  advertising  i think you have all seen these  banner adverts  on various different platforms online  for example if you go to an online  newspaper  you will often see  banner adwords  in the right column to the far right of  the screen  or if you go to youtube you will see  uh banner adverts or display adwords  and also if you uh  scroll on your social media  in on instagram or on facebook  you will also see these  banner adwords  and  previous research has shown that  these types of adwords which you can see  in the background here  an example  they are very good at generating  awareness  so  if you  do a marketing campaign and you show a  lot of people these banner adverts you  can increase people's awareness about a  certain product for example  this brand of mobile phone  but  so we know we we know this um from  previous research but here the research  question  is how can we improve  banner advertising even further  so maybe we can manipulate existing  banner advertising to perform even  better when it comes to  not only generating awareness but also  generating interest and and generating  positive attitudes for a product  so  then we are talking about  consideration in marketing terms  so  the research question is how can we  develop  banner advertising display advertising  to not only generate awareness  but also  um generate more interest more positive  attitudes  so we take the research question  and we  [Music]  create a hypothesis  based on the research question  and here it is of course  important to go back to previous  research and see what has been done  before  but  let's pretend that we have done this  research and we have found out that  there is a good chance that adding  people images of people in the banner  advert  will  cause more positive attitudes  so by just adding  a picture of a face  in a banner advert we think  that we can generate more positive  attitudes  that's the  going to be the hypothesis  so  the next step is to create a survey  experiment  and survey experiments are  they try to have the best of two worlds  basically  so  a good thing with surveys is that you  can do these  online you can collect your data or your  observations by sending out the link  and it is easy to  get your responses  through various web services  and surveys are also good when it comes  to measuring attitudes  it's it's quite difficult to  look at people's behavior and draw  conclusions about their attitudes so  it's basically  a better approach to ask them to rate  their attitudes about something  so that's positive uh  things about surveys but  on the on the negative side on the minus  side we have to say that these survey  data are self-reported  so  that means that  they are subjective to the  participant  if a participant  is not able to  answer a question or if they decide to  give a bogus answer we will basically  get noise in our data  so there are positive things and  negative things with  surveys and experiments is  survey experiments is trying to combine  these surveys with an experimental  approach  and the good thing with experiments is  that  we can have these  different conditions  we can have a control condition and a  treatment condition  which allows us to  talk about the causal effect of the  treatment  and another important principle in  experiments is that  you can have this random assignment so  you basically  show some stimulus  some maybe a banner advert to  two groups of people  and then you try to  measure what kind of difference you have  in the responses between these two  groups  so in the second part of this workshop  we will also  try to analyze the data that is  generated in an experiment  and the analysis is basically trying to  answer  a question  how strong support do  our data provide  for the hypothesis  so we know that we can never be a  hundred percent  sure in science  and the best thing we can do is to try  to find out  what is the likelihood that our results  are due to  random effects as opposed to  the conditions that we have in our  experiment  and this is what we will do when we try  to analyze the results  and  when we analyze  survey data and also experiment data  we always start with descriptive  analyses  so for example let's say that we want to  measure  attitudes  in two different con conditions so we  have a control condition which is here  shown  with the orange  color and we have a treatment condition  so the first thing we do when we analyze  our data is to descriptively find out  differences  when it comes to mean values the  averages in these two conditions  and  maybe we hope to find something like  this this is  almost exactly what we stated in the  hypothesis  that when we  have  a control condition we have slightly  lower attitudes on average  and when we add  the picture of a face of a person in our  banner advert we will generate a little  bit better attitudes  so this is the descriptive part and we  will do this  using google documents  and the final part is to  try to figure out  if there  is a chance that our results are due to  random  variation or if it is a systematic  variation  and when we do this we  basically go one step further from  comparing means and we  try to find out if our two conditions  actually constitute two different  distributions  so you can see these distributions here  in the figure  and  in this case we have one distribution  that is orange  and one distribution that is  blue which is the treatment  and if these distributions are  sufficiently  different we will say to ourselves that  we have we think we have found  good evidence good support  for our hypothesis  so that was uh the intro to this  workshop so now we're going to do the  hands-on part  and for this  we need to  uh go to google documents and you will  see  in the  video description below  we will have some  links to the actual experiment but also  to the files that we will work with  so if you click the link to  the google documents you will find  something  that  looks like this  these files i have shared on  google documents or google drive  and we can just have a look at  what these different  files are  so first of all we have some we have a  data file this is actually what we're  going to do uh in the last part of the  workshop this is the data we need to  to do some  data analysis  so we can leave that for now  the next one is interesting because it's  a form a google form and we're going to  use  the google form  functionality  to  present our stimuli and to collect our  responses  in this survey experiment  next up is  another type of file which is called a  google apps script  so this file contains the experiment  logic  and the only thing this file will do is  that it will randomly assign  participants to the  control condition or the treatment  condition  so we will have a look at that in a  moment  and then we have a spreadsheet a google  sheet and this document will collect the  responses that we get from the forms  that we put in our experiment  and finally we have two images  and these are the stimuli that we will  present in the experiment  so we have uh  we have a control  condition  that's the c image  and we have a treatment condition  denoted with a t  so when we  put these files together and link them  up we will have created  [Music]  an a b experiment  an online survey experiment  so let's see what we need to do  so first of all we need to have  we can we can open the form so this says  that it's a form and it's the a part the  control condition  and if we open it  it will look like this  so here you can probably recognize it's  a google form  and what we have done here is that we  have a  form question  that contains an  image and this is the the the banner  advert that we use for our control  condition  so this is a typical  standard  [Music]  online display adwords  with no extra fancy stuff  and below we have  the response scale so here we can rate  our attitudes towards this product  on the scale from  one which is strongly negative  to seven which is strongly positive  so  and then there are also some some  background questions when we  actually  look at this form  so the first thing we need to do to be  able to work with these files is that we  need to copy them to our own  google drive  so right now when you open  this link you can probably see under  owner that i am the owner of all these  files  and that means that  you cannot  edit them  so the first thing we will do is to i  will just um  click and drag to select all the files  and then i will make a copy  of these files  that i can work with  so i'm going to right click on all these  files that i have selected  and i'm going to make a copy  and now uh google drive is copying these  six files from the shared folder  to uh my own  uh google drive  and where did they go  uh they should end up here under  my drive  so here i have my copies and to make  things a little bit more organized i  will just  select all of them and put them in a  separate folder  so now all my experiment files is living  in this folder on my drive and now i can  edit these because now  the owner has changed so now  i i can do whatever i want with these  copies  so if i go ahead and  open the form again  you will see that now i can edit  all the stuff  so now i can start changing the text  here or the images over here  the response scale  the background questions  and the first thing we we need to do is  to create an exact  copy of this form  where we can present our treatment  condition so we can see here we have a  banner advert  with nothing more  we want to our hypothesis is that if we  add an  image of a face here a person  we will generate more positive attitudes  compared to this condition  so the first thing we do is that we make  a copy of this form  and  you can right click  on it  and you can create  a copy  and now you have a copy of a copy  so um  i will go ahead and actually change the  name on this one  so i will call this  the b form  so this is the first part  you need to have these two different  google forms  that will be the basis of your  experiment  so this one was already in the files  and this one i created now by copying  the first one  so let's go ahead and open the second  one  the the treatment condition  and here we have the same thing that we  just looked at  and that's good because we only want to  change  one thing in the experiment  in order to be able to say that  it was actually only this thing  that caused a difference in attitudes  so here we can select this image  and we can  substitute it for different image so you  can do this by clicking the image and  then  clicking this icon  and uh in this case i provided  the  second  stimulus or the second banner advert  that we will use  as the treatment and it's in my google  drive  and it's also in my experiment folder  and it's  right beside the first one  so here i have my treatment condition  which is a banner advert  where we have manipulated  it to contain a face as well  so you can just go ahead and click it  and insert it into the google form  and now i basically have my two  conditions so the only thing that is  different between these two forms is  that i have now a banner advert with  a person in it  and this is very important in order to  be able to to to  say later on when i analyze the results  that is actually this change that caused  an effect  okay  so  next step  now we have two forms but what happens  with our data  we need to link these forms  to  a spreadsheet that will collect all the  responses  so i go back to  my  control condition my control form  and now i will use  a button  up here  which is called send  and by the way  uh of course it is important that you  are logged into your google account uh  when you do this  workshop  in case i forgot to tell you before so  right now we're going to use this send  button  sorry i i actually  i'm one step ahead here so we are  actually going to figure out how to take  care of the responses  first  and the responses  are over here  on this tab on the form so  again i'm in my control form  and i want to  tell google documents what is going to  happen with my responses  so now i need to point to  a google spreadsheet and i will use  these three dots  in the top right corner  to select a response destination  and in this case  i will use an existing spreadsheet  so you can go ahead and click this radio  button  and  then we should be good to go  and then google document asks me what  spreadsheet i would like to put my  responses in  and  in this case i know that i copied all my  experiment files so all of them has  something  to do with copy in the in the file name  so it's this one in my case  so i click it and select it  okay now i have connected one of the  forms to my  response spreadsheet  so now i need to do the exact same thing  for the  treatment condition  so this is the treatment here we have  manipulated the advert and we have added  a face  and now we need to  tell  google documents what is going to happen  with these responses  so again  i go to the responses tab  click the three buttons that the three  dots  and i select  a response destination which is going to  be the same  an existing spreadsheet  and it's called  copy  in the file name  so i can select it  and now i have linked both of the forms  to  my spreadsheet  and the spreadsheet we are talking about  here is this one  this is going to be the  location of the data we collect so we  can go ahead and open it to see what has  happened here  and if we have done everything  according to the instructions here  we should now have  two different  sheets or tabs  in the spreadsheet  so i know that the  form responses one will contain the data  for my  control condition  the banner advert with no manipulation  and the form responses to will contain  the data for my  treatment condition  so now the the responses will end up in  this  in this google sheet  okay  so now we're going to go  one step further  and we're going to  [Music]  actually start working with  the  this file which contains the experiment  logic so this will this will provide a  landing page for our experiment  and um  we will also create a link that  participants will use in order to get to  the experiment and to the experiment  landing page  so  you can go ahead and double click this  one  and now you should see that it opens an  apps script project  and this means that we have a number of  files here in the file view  and the first one the first file that  opens is this one called  code.gs  google script  and  we won't be doing a lot of coding here  so we can basically leave everything as  it is  i just want to point out that this  small snippet of code  is what is going to do our randomization  so this will  just point  fifty 50 of our visitors to  one condition and 50 to the other  condition  we can have a look at the second file  which is called index.html  so this will be the landing page of our  experiment  and  here we can provide some information to  our participants  so here it says welcome to the study  and here we can give some instructions  that they should maybe be in a  calm or secluded area when they respond  to the experiments  and if we go  to the  next file it's called  condition a dot html  so if you click that you will see a file  that looks like this  it's basically an html file  but over here  at this line  it is a comment  and this is where we will  embed our  google forms  so we will actually paste in  a small snippet of code that will embed  our google forms  into these html pages  so this is what we're gonna do now  so i look at my tabs my my google  documents  and i look for  the one that is my a  condition my a variant  the a variant is also the control  condition  so  this is the the  banner advert with no manipulation  and now i'm going to use this send  button to be able to embed  this form into the experiment web  application  so if you click on send  you get some different options  and in this case we will use  these tag  symbol  to generate  a small html snippet that will embed our  form  into a web page so you can just go ahead  and  click in this  long link  and you can click copy  so now i have the address to my form and  i want to take this address to  this google app script  so if you  look at the page i have selected the  html file it's  condition a  so this is where we paste  in  the control condition  so this generates  an  iframe  uh element in the  in the google  in the document in the html document and  now it's a good idea to save the project  so this is the only thing we need to  actually do  manually  and if you go to the to the second  condition which is called condition b  dot html you have a similar empty line  and now we're going to do the exact same  thing with  the google form that is called  b  which is the treatment condition so  here we have uh an image  which is a google advert with a  face of a human  and now i'm going to use the send button  again i'm going to the  tag  symbol  which will give me this iframe  tag  that i can copy  and i can  then  put it into my  second  html file  the condition b  and again make sure to save this  so now we have all the files linked  together we have the forms  and the forms are linked to a response  sheet a spreadsheet to collect the data  and the web app has been linked up with  the google forms  so  the final thing to do in order to  make this experiment ready for  participants is to deploy it  so this is the blue button over here  and i can make a new deployment  and  we have a few different fields here the  first one make sure that it says web app  over here  so basically this survey experiment is  going to be a small web app  and  here you can just  write a description for your deployment  and in the second field  you need to make sure that it says  execute as the user accessing the web  app  so this will make sure that  anyone that gets your experiment link  will be able to  use the experiment link and submit  their  responses on your form  and we also need to  make sure that who has access  is anyone with a google account  so the only restriction here is that you  will need to have a google account in  order to participate in this experiment  so make sure you have these values  filled in  and then you can hit  deploy  and this will generate  two different links we don't need to  bother about the first link but the  second one  which says webapp url  is the link that we are going to send  out to our potential participants  so this is the link that you will would  for example share  on your social media  to anyone that you want to be able to  submit the response  so i'm going to copy this one  and finally  if everything works  we should be able to  paste it in  a browser  and generate  an experiment  i guess it takes a while for  google documents to process  the whole thing  but  this is what you should be able to see  now and  this means that you have  recreated  the experiment that you  participated in earlier so here we have  the same  standard formulations  and we have this button  that will tell me uh  that will randomly assign  each visitor to this webpage to  two different versions  so let's see if i click the button will  i get the  control condition  with no face or will i get the treatment  condition with a face  so in this case i got the treatment  and if i  go back to the to the same page  again to the landing page and reload it  i will sooner or later  end up with the control condition which  is the other version of this  banner adverts  okay that is the whole experiment  so um  just to finish this workshop  we will also  uh have a look at some data from an uh  an experiment  so that we know how to analyze it  and  in this for this part we need to  go to our  copy  of  the data file and it's called dot tsv  which means  tab separated values so this is  basically a text file  which contains spreadsheet data  so you can go ahead and double click  this file  and it will give you a preview  but it will also  give you the option to open the file so  so we can edit it  so  i go ahead and select google sheets so  now i will convert the data file  to a standard  google spreadsheet  and here we have some some sample data  so  if we look at the columns we have a  timestamp column we're not going to use  that now  we have an attitude column this is our  dependent variable  this is what we are measuring  in our spread in our forms  so it's an attitude score between one  which is strongly negative and seven  which is strongly positive  and then we have  a column for condition  so this is going to be our main  independent variable  so we want to basically see what effect  does condition have on  attitude  and then we also have some  background variables age and gender  and we're not going to use them for this  analysis  so let's see how can we start analyzing  this so condition i should say  under this column we have  a c for  control  so it's a shorthand for control and if  we scroll down  we can see that we also have a bunch of  responses in the treatment condition  which is the t  uh  character  and if we scroll all the way down to the  file  to the bottom of the file we can see  that we have exactly  100 responses  for this experiment  so  like i said before it's important that  we start with our descriptive statistics  when we explore the data  so we want to compare means we want to  compare the mean attitude in the control  condition  with the mean attitude in the treatment  condition  and in google forms  you can just put your cursor anywhere in  the data  and then you can choose insert  pivot table  and this will allow us to give us  a descriptive analysis  so  right now it asks us if we want to  create a new sheet  and i think  that is the best  alternative  so new sheet and create  and now we have a new tab  down at the bottom called pivot table  and we have an empty pivot table  and what i need to do now is that i need  to look at the  right hand side the bar  where it says values and here we need to  add  the dependent variable  the attitude variable  so  this gives me the sum  when if we sum up all the  attitude scores we get a number for that  but i don't want the sum i want the  average  and if you choose average here we get  the overall  mean  attitude towards  the banner adverts both of them  and the mean attitude is  3.46 so just below  the middle point on the on the 7  degree scale  so now i want to separate the two  conditions  so i go to columns and i click add  and here i select condition  so now we have a pivot table where we  can see  the mean  attitude in the control condition which  is c  and in the treatment condition which is  t  and  we can see here that it actually seems  to support our hypotheses  that we have a slightly higher  level of attitude positive attitude in  the treatment condition  so that seems good that's a good sign  but  we still can't really say too much about  these means because they could be due to  random variation  so we're going to go ahead and just  graph this  so to graph this i select these four  different cells  control  c  treatment t and then the mean values  and now i can select insert  chart  and for some reason  google document thinks that i always  want a pie chart  but we can also change this to a bar  chart  and now we have visualized the mean  values in our two different groups so we  have  the average of attitudes  in the control condition and the  treatment condition  and if we want to go one step further  we can customize this graph  and put  some indication of  the confidence we have in these two  different means  so i can scroll down under customize  and put error bars  on the on these  in this bar chart  and as a rule of thumb  we can say that if these  error bars the top part of this error  bar does not overlap with the bottom  part of this error bar  we  may  have a significant difference between  these two groups  but  let's do the whole analysis and we will  do some inferential  analysis by using a test called a t-test  so here i go back to my  data view  so this is a good indication that there  might be something going on with the  attitudes in our two different banner  advert conditions  and we can actually find out  what is called a p value  in google spreadsheets  so  to do this we need to enter a formula  and the formula for this is simply  the equal sign  which is the start point of all formulas  and then we hit t dot  test  and here i can just click tab  key to  auto complete the formula  and now uh  the formula asks me for uh two ranges  and these are the conditions i want to  compare so now i can use my arrow key  and go to these attitude values  so i want to con compare  all the attitudes in this c  [Music]  condition control condition  so if i go down  to the middle of the  data file  i can see that all these attitudes con  are connected associated with the  control condition  so here i can enter  a comma sign  to be able to select the next  range and this will be  all the attitudes associated with the  treatment  so i just go ahead and  mark all of these  and now we are at the bottom of the data  file and now we can  hit so now we have the two ranges  now we  use the comma sign again to have the  third argument of this function  so now it asks me for the tails  and this is  going to be a long explanation if i  run through all of it but here you can  enter two  and then comma again  and now it asks for the type so in this  case it's a independent samples  t-test  and  you use the number two again  to do this type of test and then you  have a closing parenthesis  and i hit enter  and here i have the p-value so  the p-value in this experiment tells me  that it is below  0.05  which is the conventional cutoff point  where i think that  the effect i see in my data there's only  a five percent chance that it's due to  random noise  and it's a 95 chance that it is due to  this manipulation  the  the  control condition  which was no face in the banner adverts  and the treatment condition  which was with a face in the adwords  so there is  a strong likelihood  that  faces  generates  more positive attitudes  and that's a good thing to be able to  report in  a thesis or a journal article
+
+00:00:07.990 --> 00:00:10.709 align:start position:0%
+so welcome to this  workshop on how to create a simple  online survey experiment  uh i am neil swanberry and i work at  strategic communication in uh at lund  university  and i have developed the contents of  this workshop together with my  uh colleague  marlin sillinger at  the department of  service management  and the background to this  workshop is that we think  there is a need for some simple tools to  build an experiment  that is also  free of charge so um we know that there  are some some tools that cost you money  um but  we would like to  do this  without any licensing fees and so on  so on this presentation  on this workshop i will start with  showing you a couple of slides  and then we will do a hands-on session  where we try to  create an online experiment using google  documents  so  the whole workshop basically consists of  these two steps  we will  create the survey experiment  and then we will also  analyze some experiment data so  for example if you run an experiment you  have a  control condition  and you collect data on the control  condition and you have  a treatment condition  where you collect some data and then at  the end  you want to compare means for example  between these two conditions  so  we will basically  dedicate most of this workshop to the  first part creating a survey experiment  and uh doing an experiment is a lot of  work  in all the different stages and  it's really important to do your  literature review to really investigate  previous research  that is connected to  the kind of experiment that you want to  run  because this will help you  find out what has been done before  and how you can  contribute something new and you can  also formulate hypotheses  about  your expected results  and this is the first step and when you  have done the first step  you can go on to actually design the  experiment and decide what will be your  measurements what are you going to  measure in your experiment  and you can also decide the different  conditions where you will  do your mesh measurements  so for example a control condition and a  treatment condition  and this is often called an a b test  so  a typical example is in advertising you  wanted to test out  with which version of two online adverts  that performs the best  so there's a lot of stuff  to cover when you do an experiment and  we will only jump into the practical  stuff here  so to provide some context for this  experiment workshop we need some kind of  research question  and the research question in this case  is how can we improve  online  banner advertising or display  advertising  i think you have all seen these  banner adverts  on various different platforms online  for example if you go to an online  newspaper  you will often see  banner adwords  in the right column to the far right of  the screen  or if you go to youtube you will see  uh banner adverts or display adwords  and also if you uh  scroll on your social media  in on instagram or on facebook  you will also see these  banner adwords  and  previous research has shown that  these types of adwords which you can see  in the background here  an example  they are very good at generating  awareness  so  if you  do a marketing campaign and you show a  lot of people these banner adverts you  can increase people's awareness about a  certain product for example  this brand of mobile phone  but  so we know we we know this um from  previous research but here the research  question  is how can we improve  banner advertising even further  so maybe we can manipulate existing  banner advertising to perform even  better when it comes to  not only generating awareness but also  generating interest and and generating  positive attitudes for a product  so  then we are talking about  consideration in marketing terms  so  the research question is how can we  develop  banner advertising display advertising  to not only generate awareness  but also  um generate more interest more positive  attitudes  so we take the research question  and we  [Music]  create a hypothesis  based on the research question  and here it is of course  important to go back to previous  research and see what has been done  before  but  let's pretend that we have done this  research and we have found out that  there is a good chance that adding  people images of people in the banner  advert  will  cause more positive attitudes  so by just adding  a picture of a face  in a banner advert we think  that we can generate more positive  attitudes  that's the  going to be the hypothesis  so  the next step is to create a survey  experiment  and survey experiments are  they try to have the best of two worlds  basically  so  a good thing with surveys is that you  can do these  online you can collect your data or your  observations by sending out the link  and it is easy to  get your responses  through various web services  and surveys are also good when it comes  to measuring attitudes  it's it's quite difficult to  look at people's behavior and draw  conclusions about their attitudes so  it's basically  a better approach to ask them to rate  their attitudes about something  so that's positive uh  things about surveys but  on the on the negative side on the minus  side we have to say that these survey  data are self-reported  so  that means that  they are subjective to the  participant  if a participant  is not able to  answer a question or if they decide to  give a bogus answer we will basically  get noise in our data  so there are positive things and  negative things with  surveys and experiments is  survey experiments is trying to combine  these surveys with an experimental  approach  and the good thing with experiments is  that  we can have these  different conditions  we can have a control condition and a  treatment condition  which allows us to  talk about the causal effect of the  treatment  and another important principle in  experiments is that  you can have this random assignment so  you basically  show some stimulus  some maybe a banner advert to  two groups of people  and then you try to  measure what kind of difference you have  in the responses between these two  groups  so in the second part of this workshop  we will also  try to analyze the data that is  generated in an experiment  and the analysis is basically trying to  answer  a question  how strong support do  our data provide  for the hypothesis  so we know that we can never be a  hundred percent  sure in science  and the best thing we can do is to try  to find out  what is the likelihood that our results  are due to  random effects as opposed to  the conditions that we have in our  experiment  and this is what we will do when we try  to analyze the results  and  when we analyze  survey data and also experiment data  we always start with descriptive  analyses  so for example let's say that we want to  measure  attitudes  in two different con conditions so we  have a control condition which is here  shown  with the orange  color and we have a treatment condition  so the first thing we do when we analyze  our data is to descriptively find out  differences  when it comes to mean values the  averages in these two conditions  and  maybe we hope to find something like  this this is  almost exactly what we stated in the  hypothesis  that when we  have  a control condition we have slightly  lower attitudes on average  and when we add  the picture of a face of a person in our  banner advert we will generate a little  bit better attitudes  so this is the descriptive part and we  will do this  using google documents  and the final part is to  try to figure out  if there  is a chance that our results are due to  random  variation or if it is a systematic  variation  and when we do this we  basically go one step further from  comparing means and we  try to find out if our two conditions  actually constitute two different  distributions  so you can see these distributions here  in the figure  and  in this case we have one distribution  that is orange  and one distribution that is  blue which is the treatment  and if these distributions are  sufficiently  different we will say to ourselves that  we have we think we have found  good evidence good support  for our hypothesis  so that was uh the intro to this  workshop so now we're going to do the  hands-on part  and for this  we need to  uh go to google documents and you will  see  in the  video description below  we will have some  links to the actual experiment but also  to the files that we will work with  so if you click the link to  the google documents you will find  something  that  looks like this  these files i have shared on  google documents or google drive  and we can just have a look at  what these different  files are  so first of all we have some we have a  data file this is actually what we're  going to do uh in the last part of the  workshop this is the data we need to  to do some  data analysis  so we can leave that for now  the next one is interesting because it's  a form a google form and we're going to  use  the google form  functionality  to  present our stimuli and to collect our  responses  in this survey experiment  next up is  another type of file which is called a  google apps script  so this file contains the experiment  logic  and the only thing this file will do is  that it will randomly assign  participants to the  control condition or the treatment  condition  so we will have a look at that in a  moment  and then we have a spreadsheet a google  sheet and this document will collect the  responses that we get from the forms  that we put in our experiment  and finally we have two images  and these are the stimuli that we will  present in the experiment  so we have uh  we have a control  condition  that's the c image  and we have a treatment condition  denoted with a t  so when we  put these files together and link them  up we will have created  [Music]  an a b experiment  an online survey experiment  so let's see what we need to do  so first of all we need to have  we can we can open the form so this says  that it's a form and it's the a part the  control condition  and if we open it  it will look like this  so here you can probably recognize it's  a google form  and what we have done here is that we  have a  form question  that contains an  image and this is the the the banner  advert that we use for our control  condition  so this is a typical  standard  [Music]  online display adwords  with no extra fancy stuff  and below we have  the response scale so here we can rate  our attitudes towards this product  on the scale from  one which is strongly negative  to seven which is strongly positive  so  and then there are also some some  background questions when we  actually  look at this form  so the first thing we need to do to be  able to work with these files is that we  need to copy them to our own  google drive  so right now when you open  this link you can probably see under  owner that i am the owner of all these  files  and that means that  you cannot  edit them  so the first thing we will do is to i  will just um  click and drag to select all the files  and then i will make a copy  of these files  that i can work with  so i'm going to right click on all these  files that i have selected  and i'm going to make a copy  and now uh google drive is copying these  six files from the shared folder  to uh my own  uh google drive  and where did they go  uh they should end up here under  my drive  so here i have my copies and to make  things a little bit more organized i  will just  select all of them and put them in a  separate folder  so now all my experiment files is living  in this folder on my drive and now i can  edit these because now  the owner has changed so now  i i can do whatever i want with these  copies  so if i go ahead and  open the form again  you will see that now i can edit  all the stuff  so now i can start changing the text  here or the images over here  the response scale  the background questions  and the first thing we we need to do is  to create an exact  copy of this form  where we can present our treatment  condition so we can see here we have a  banner advert  with nothing more  we want to our hypothesis is that if we  add an  image of a face here a person  we will generate more positive attitudes  compared to this condition  so the first thing we do is that we make  a copy of this form  and  you can right click  on it  and you can create  a copy  and now you have a copy of a copy  so um  i will go ahead and actually change the  name on this one  so i will call this  the b form  so this is the first part  you need to have these two different  google forms  that will be the basis of your  experiment  so this one was already in the files  and this one i created now by copying  the first one  so let's go ahead and open the second  one  the the treatment condition  and here we have the same thing that we  just looked at  and that's good because we only want to  change  one thing in the experiment  in order to be able to say that  it was actually only this thing  that caused a difference in attitudes  so here we can select this image  and we can  substitute it for different image so you  can do this by clicking the image and  then  clicking this icon  and uh in this case i provided  the  second  stimulus or the second banner advert  that we will use  as the treatment and it's in my google  drive  and it's also in my experiment folder  and it's  right beside the first one  so here i have my treatment condition  which is a banner advert  where we have manipulated  it to contain a face as well  so you can just go ahead and click it  and insert it into the google form  and now i basically have my two  conditions so the only thing that is  different between these two forms is  that i have now a banner advert with  a person in it  and this is very important in order to  be able to to to  say later on when i analyze the results  that is actually this change that caused  an effect  okay  so  next step  now we have two forms but what happens  with our data  we need to link these forms  to  a spreadsheet that will collect all the  responses  so i go back to  my  control condition my control form  and now i will use  a button  up here  which is called send  and by the way  uh of course it is important that you  are logged into your google account uh  when you do this  workshop  in case i forgot to tell you before so  right now we're going to use this send  button  sorry i i actually  i'm one step ahead here so we are  actually going to figure out how to take  care of the responses  first  and the responses  are over here  on this tab on the form so  again i'm in my control form  and i want to  tell google documents what is going to  happen with my responses  so now i need to point to  a google spreadsheet and i will use  these three dots  in the top right corner  to select a response destination  and in this case  i will use an existing spreadsheet  so you can go ahead and click this radio  button  and  then we should be good to go  and then google document asks me what  spreadsheet i would like to put my  responses in  and  in this case i know that i copied all my  experiment files so all of them has  something  to do with copy in the in the file name  so it's this one in my case  so i click it and select it  okay now i have connected one of the  forms to my  response spreadsheet  so now i need to do the exact same thing  for the  treatment condition  so this is the treatment here we have  manipulated the advert and we have added  a face  and now we need to  tell  google documents what is going to happen  with these responses  so again  i go to the responses tab  click the three buttons that the three  dots  and i select  a response destination which is going to  be the same  an existing spreadsheet  and it's called  copy  in the file name  so i can select it  and now i have linked both of the forms  to  my spreadsheet  and the spreadsheet we are talking about  here is this one  this is going to be the  location of the data we collect so we  can go ahead and open it to see what has  happened here  and if we have done everything  according to the instructions here  we should now have  two different  sheets or tabs  in the spreadsheet  so i know that the  form responses one will contain the data  for my  control condition  the banner advert with no manipulation  and the form responses to will contain  the data for my  treatment condition  so now the the responses will end up in  this  in this google sheet  okay  so now we're going to go  one step further  and we're going to  [Music]  actually start working with  the  this file which contains the experiment  logic so this will this will provide a  landing page for our experiment  and um  we will also create a link that  participants will use in order to get to  the experiment and to the experiment  landing page  so  you can go ahead and double click this  one  and now you should see that it opens an  apps script project  and this means that we have a number of  files here in the file view  and the first one the first file that  opens is this one called  code.gs  google script  and  we won't be doing a lot of coding here  so we can basically leave everything as  it is  i just want to point out that this  small snippet of code  is what is going to do our randomization  so this will  just point  fifty 50 of our visitors to  one condition and 50 to the other  condition  we can have a look at the second file  which is called index.html  so this will be the landing page of our  experiment  and  here we can provide some information to  our participants  so here it says welcome to the study  and here we can give some instructions  that they should maybe be in a  calm or secluded area when they respond  to the experiments  and if we go  to the  next file it's called  condition a dot html  so if you click that you will see a file  that looks like this  it's basically an html file  but over here  at this line  it is a comment  and this is where we will  embed our  google forms  so we will actually paste in  a small snippet of code that will embed  our google forms  into these html pages  so this is what we're gonna do now  so i look at my tabs my my google  documents  and i look for  the one that is my a  condition my a variant  the a variant is also the control  condition  so  this is the the  banner advert with no manipulation  and now i'm going to use this send  button to be able to embed  this form into the experiment web  application  so if you click on send  you get some different options  and in this case we will use  these tag  symbol  to generate  a small html snippet that will embed our  form  into a web page so you can just go ahead  and  click in this  long link  and you can click copy  so now i have the address to my form and  i want to take this address to  this google app script  so if you  look at the page i have selected the  html file it's  condition a  so this is where we paste  in  the control condition  so this generates  an  iframe  uh element in the  in the google  in the document in the html document and  now it's a good idea to save the project  so this is the only thing we need to  actually do  manually  and if you go to the to the second  condition which is called condition b  dot html you have a similar empty line  and now we're going to do the exact same  thing with  the google form that is called  b  which is the treatment condition so  here we have uh an image  which is a google advert with a  face of a human  and now i'm going to use the send button  again i'm going to the  tag  symbol  which will give me this iframe  tag  that i can copy  and i can  then  put it into my  second  html file  the condition b  and again make sure to save this  so now we have all the files linked  together we have the forms  and the forms are linked to a response  sheet a spreadsheet to collect the data  and the web app has been linked up with  the google forms  so  the final thing to do in order to  make this experiment ready for  participants is to deploy it  so this is the blue button over here  and i can make a new deployment  and  we have a few different fields here the  first one make sure that it says web app  over here  so basically this survey experiment is  going to be a small web app  and  here you can just  write a description for your deployment  and in the second field  you need to make sure that it says  execute as the user accessing the web  app  so this will make sure that  anyone that gets your experiment link  will be able to  use the experiment link and submit  their  responses on your form  and we also need to  make sure that who has access  is anyone with a google account  so the only restriction here is that you  will need to have a google account in  order to participate in this experiment  so make sure you have these values  filled in  and then you can hit  deploy  and this will generate  two different links we don't need to  bother about the first link but the  second one  which says webapp url  is the link that we are going to send  out to our potential participants  so this is the link that you will would  for example share  on your social media  to anyone that you want to be able to  submit the response  so i'm going to copy this one  and finally  if everything works  we should be able to  paste it in  a browser  and generate  an experiment  i guess it takes a while for  google documents to process  the whole thing  but  this is what you should be able to see  now and  this means that you have  recreated  the experiment that you  participated in earlier so here we have  the same  standard formulations  and we have this button  that will tell me uh  that will randomly assign  each visitor to this webpage to  two different versions  so let's see if i click the button will  i get the  control condition  with no face or will i get the treatment  condition with a face  so in this case i got the treatment  and if i  go back to the to the same page  again to the landing page and reload it  i will sooner or later  end up with the control condition which  is the other version of this  banner adverts  okay that is the whole experiment  so um  just to finish this workshop  we will also  uh have a look at some data from an uh  an experiment  so that we know how to analyze it  and  in this for this part we need to  go to our  copy  of  the data file and it's called dot tsv  which means  tab separated values so this is  basically a text file  which contains spreadsheet data  so you can go ahead and double click  this file  and it will give you a preview  but it will also  give you the option to open the file so  so we can edit it  so  i go ahead and select google sheets so  now i will convert the data file  to a standard  google spreadsheet  and here we have some some sample data  so  if we look at the columns we have a  timestamp column we're not going to use  that now  we have an attitude column this is our  dependent variable  this is what we are measuring  in our spread in our forms  so it's an attitude score between one  which is strongly negative and seven  which is strongly positive  and then we have  a column for condition  so this is going to be our main  independent variable  so we want to basically see what effect  does condition have on  attitude  and then we also have some  background variables age and gender  and we're not going to use them for this  analysis  so let's see how can we start analyzing  this so condition i should say  under this column we have  a c for  control  so it's a shorthand for control and if  we scroll down  we can see that we also have a bunch of  responses in the treatment condition  which is the t  uh  character  and if we scroll all the way down to the  file  to the bottom of the file we can see  that we have exactly  100 responses  for this experiment  so  like i said before it's important that  we start with our descriptive statistics  when we explore the data  so we want to compare means we want to  compare the mean attitude in the control  condition  with the mean attitude in the treatment  condition  and in google forms  you can just put your cursor anywhere in  the data  and then you can choose insert  pivot table  and this will allow us to give us  a descriptive analysis  so  right now it asks us if we want to  create a new sheet  and i think  that is the best  alternative  so new sheet and create  and now we have a new tab  down at the bottom called pivot table  and we have an empty pivot table  and what i need to do now is that i need  to look at the  right hand side the bar  where it says values and here we need to  add  the dependent variable  the attitude variable  so  this gives me the sum  when if we sum up all the  attitude scores we get a number for that  but i don't want the sum i want the  average  and if you choose average here we get  the overall  mean  attitude towards  the banner adverts both of them  and the mean attitude is  3.46 so just below  the middle point on the on the 7  degree scale  so now i want to separate the two  conditions  so i go to columns and i click add  and here i select condition  so now we have a pivot table where we  can see  the mean  attitude in the control condition which  is c  and in the treatment condition which is  t  and  we can see here that it actually seems  to support our hypotheses  that we have a slightly higher  level of attitude positive attitude in  the treatment condition  so that seems good that's a good sign  but  we still can't really say too much about  these means because they could be due to  random variation  so we're going to go ahead and just  graph this  so to graph this i select these four  different cells  control  c  treatment t and then the mean values  and now i can select insert  chart  and for some reason  google document thinks that i always  want a pie chart  but we can also change this to a bar  chart  and now we have visualized the mean  values in our two different groups so we  have  the average of attitudes  in the control condition and the  treatment condition  and if we want to go one step further  we can customize this graph  and put  some indication of  the confidence we have in these two  different means  so i can scroll down under customize  and put error bars  on the on these  in this bar chart  and as a rule of thumb  we can say that if these  error bars the top part of this error  bar does not overlap with the bottom  part of this error bar  we  may  have a significant difference between  these two groups  but  let's do the whole analysis and we will  do some inferential  analysis by using a test called a t-test  so here i go back to my  data view  so this is a good indication that there  might be something going on with the  attitudes in our two different banner  advert conditions  and we can actually find out  what is called a p value  in google spreadsheets  so  to do this we need to enter a formula  and the formula for this is simply  the equal sign  which is the start point of all formulas  and then we hit t dot  test  and here i can just click tab  key to  auto complete the formula  and now uh  the formula asks me for uh two ranges  and these are the conditions i want to  compare so now i can use my arrow key  and go to these attitude values  so i want to con compare  all the attitudes in this c  [Music]  condition control condition  so if i go down  to the middle of the  data file  i can see that all these attitudes con  are connected associated with the  control condition  so here i can enter  a comma sign  to be able to select the next  range and this will be  all the attitudes associated with the  treatment  so i just go ahead and  mark all of these  and now we are at the bottom of the data  file and now we can  hit so now we have the two ranges  now we  use the comma sign again to have the  third argument of this function  so now it asks me for the tails  and this is  going to be a long explanation if i  run through all of it but here you can  enter two  and then comma again  and now it asks for the type so in this  case it's a independent samples  t-test  and  you use the number two again  to do this type of test and then you  have a closing parenthesis  and i hit enter  and here i have the p-value so  the p-value in this experiment tells me  that it is below  0.05  which is the conventional cutoff point  where i think that  the effect i see in my data there's only  a five percent chance that it's due to  random noise  and it's a 95 chance that it is due to  this manipulation  the  the  control condition  which was no face in the banner adverts  and the treatment condition  which was with a face in the adwords  so there is  a strong likelihood  that  faces  generates  more positive attitudes  and that's a good thing to be able to  report in  a thesis or a journal article
+ 
+
+00:00:10.709 --> 00:00:14.470 align:start position:0%
+ 
+ 
+
+00:00:14.470 --> 00:00:16.950 align:start position:0%
+ 
+ 
+
+00:00:16.950 --> 00:00:19.670 align:start position:0%
+ 
+ 
+
+00:00:19.670 --> 00:00:19.680 align:start position:0%
+ 
+ 
+
+00:00:19.680 --> 00:00:21.510 align:start position:0%
+ 
+
+
+00:00:21.510 --> 00:00:23.750 align:start position:0%
+ 
+ 
+
+00:00:23.750 --> 00:00:26.710 align:start position:0%
+ 
+ 
+
+00:00:26.710 --> 00:00:28.470 align:start position:0%
+ 
+ 
+
+00:00:28.470 --> 00:00:31.429 align:start position:0%
+ 
+ 
+
+00:00:31.429 --> 00:00:33.110 align:start position:0%
+ 
+ 
+
+00:00:33.110 --> 00:00:37.590 align:start position:0%
+ 
+ 
+
+00:00:37.590 --> 00:00:40.069 align:start position:0%
+ 
+ 
+
+00:00:40.069 --> 00:00:41.990 align:start position:0%
+ 
+ 
+
+00:00:41.990 --> 00:00:45.350 align:start position:0%
+ 
+ 
+
+00:00:45.350 --> 00:00:47.350 align:start position:0%
+ 
+ 
+
+00:00:47.350 --> 00:00:49.190 align:start position:0%
+ 
+ 
+
+00:00:49.190 --> 00:00:52.709 align:start position:0%
+ 
+ 
+
+00:00:52.709 --> 00:00:56.470 align:start position:0%
+ 
+ 
+
+00:00:56.470 --> 00:00:58.549 align:start position:0%
+ 
+ 
+
+00:00:58.549 --> 00:00:59.990 align:start position:0%
+ 
+ 
+
+00:00:59.990 --> 00:01:01.270 align:start position:0%
+ 
+ 
+
+00:01:01.270 --> 00:01:09.990 align:start position:0%
+ 
+ 
+
+00:01:09.990 --> 00:01:12.550 align:start position:0%
+ 
+ 
+
+00:01:12.550 --> 00:01:15.109 align:start position:0%
+ 
+ 
+
+00:01:15.109 --> 00:01:18.230 align:start position:0%
+ 
+ 
+
+00:01:18.230 --> 00:01:20.870 align:start position:0%
+ 
+ 
+
+00:01:20.870 --> 00:01:23.030 align:start position:0%
+ 
+ 
+
+00:01:23.030 --> 00:01:26.469 align:start position:0%
+ 
+ 
+
+00:01:26.469 --> 00:01:26.479 align:start position:0%
+ 
+ 
+
+00:01:26.479 --> 00:01:29.990 align:start position:0%
+ 
+
+
+00:01:29.990 --> 00:01:30.000 align:start position:0%
+ 
+ 
+
+00:01:30.000 --> 00:01:30.870 align:start position:0%
+ 
+
+
+00:01:30.870 --> 00:01:32.789 align:start position:0%
+ 
+ 
+
+00:01:32.789 --> 00:01:34.310 align:start position:0%
+ 
+ 
+
+00:01:34.310 --> 00:01:35.350 align:start position:0%
+ 
+ 
+
+00:01:35.350 --> 00:01:37.590 align:start position:0%
+ 
+ 
+
+00:01:37.590 --> 00:01:40.069 align:start position:0%
+ 
+ 
+
+00:01:40.069 --> 00:01:43.429 align:start position:0%
+ 
+ 
+
+00:01:43.429 --> 00:01:45.429 align:start position:0%
+ 
+ 
+
+00:01:45.429 --> 00:01:46.870 align:start position:0%
+ 
+ 
+
+00:01:46.870 --> 00:01:49.590 align:start position:0%
+ 
+ 
+
+00:01:49.590 --> 00:01:51.109 align:start position:0%
+ 
+ 
+
+00:01:51.109 --> 00:01:52.950 align:start position:0%
+ 
+ 
+
+00:01:52.950 --> 00:01:54.550 align:start position:0%
+ 
+ 
+
+00:01:54.550 --> 00:01:56.310 align:start position:0%
+ 
+ 
+
+00:01:56.310 --> 00:01:57.350 align:start position:0%
+ 
+ 
+
+00:01:57.350 --> 00:02:00.310 align:start position:0%
+ 
+ 
+
+00:02:00.310 --> 00:02:05.190 align:start position:0%
+ 
+ 
+
+00:02:05.190 --> 00:02:05.200 align:start position:0%
+ 
+ 
+
+00:02:05.200 --> 00:02:07.510 align:start position:0%
+ 
+
+
+00:02:07.510 --> 00:02:09.109 align:start position:0%
+ 
+ 
+
+00:02:09.109 --> 00:02:11.270 align:start position:0%
+ 
+ 
+
+00:02:11.270 --> 00:02:16.949 align:start position:0%
+ 
+ 
+
+00:02:16.949 --> 00:02:19.910 align:start position:0%
+ 
+ 
+
+00:02:19.910 --> 00:02:19.920 align:start position:0%
+ 
+ 
+
+00:02:19.920 --> 00:02:20.949 align:start position:0%
+ 
+
+
+00:02:20.949 --> 00:02:25.270 align:start position:0%
+ 
+ 
+
+00:02:25.270 --> 00:02:28.949 align:start position:0%
+ 
+ 
+
+00:02:28.949 --> 00:02:32.150 align:start position:0%
+ 
+ 
+
+00:02:32.150 --> 00:02:33.910 align:start position:0%
+ 
+ 
+
+00:02:33.910 --> 00:02:36.949 align:start position:0%
+ 
+ 
+
+00:02:36.949 --> 00:02:38.710 align:start position:0%
+ 
+ 
+
+00:02:38.710 --> 00:02:38.720 align:start position:0%
+ 
+ 
+
+00:02:38.720 --> 00:02:39.750 align:start position:0%
+ 
+
+
+00:02:39.750 --> 00:02:41.430 align:start position:0%
+ 
+ 
+
+00:02:41.430 --> 00:02:44.470 align:start position:0%
+ 
+ 
+
+00:02:44.470 --> 00:02:46.070 align:start position:0%
+ 
+ 
+
+00:02:46.070 --> 00:02:48.150 align:start position:0%
+ 
+ 
+
+00:02:48.150 --> 00:02:50.550 align:start position:0%
+ 
+ 
+
+00:02:50.550 --> 00:02:50.560 align:start position:0%
+ 
+ 
+
+00:02:50.560 --> 00:02:51.910 align:start position:0%
+ 
+
+
+00:02:51.910 --> 00:02:55.509 align:start position:0%
+ 
+ 
+
+00:02:55.509 --> 00:02:58.550 align:start position:0%
+ 
+ 
+
+00:02:58.550 --> 00:03:00.390 align:start position:0%
+ 
+ 
+
+00:03:00.390 --> 00:03:02.949 align:start position:0%
+ 
+ 
+
+00:03:02.949 --> 00:03:06.149 align:start position:0%
+ 
+ 
+
+00:03:06.149 --> 00:03:07.910 align:start position:0%
+ 
+ 
+
+00:03:07.910 --> 00:03:10.550 align:start position:0%
+ 
+ 
+
+00:03:10.550 --> 00:03:13.030 align:start position:0%
+ 
+ 
+
+00:03:13.030 --> 00:03:15.270 align:start position:0%
+ 
+ 
+
+00:03:15.270 --> 00:03:17.509 align:start position:0%
+ 
+ 
+
+00:03:17.509 --> 00:03:20.149 align:start position:0%
+ 
+ 
+
+00:03:20.149 --> 00:03:22.390 align:start position:0%
+ 
+ 
+
+00:03:22.390 --> 00:03:25.750 align:start position:0%
+ 
+ 
+
+00:03:25.750 --> 00:03:25.760 align:start position:0%
+ 
+ 
+
+00:03:25.760 --> 00:03:26.550 align:start position:0%
+ 
+
+
+00:03:26.550 --> 00:03:29.430 align:start position:0%
+ 
+ 
+
+00:03:29.430 --> 00:03:31.670 align:start position:0%
+ 
+ 
+
+00:03:31.670 --> 00:03:35.030 align:start position:0%
+ 
+ 
+
+00:03:35.030 --> 00:03:41.190 align:start position:0%
+ 
+ 
+
+00:03:41.190 --> 00:03:44.470 align:start position:0%
+ 
+ 
+
+00:03:44.470 --> 00:03:46.630 align:start position:0%
+ 
+ 
+
+00:03:46.630 --> 00:03:49.190 align:start position:0%
+ 
+ 
+
+00:03:49.190 --> 00:03:52.470 align:start position:0%
+ 
+ 
+
+00:03:52.470 --> 00:03:55.670 align:start position:0%
+ 
+ 
+
+00:03:55.670 --> 00:03:58.630 align:start position:0%
+ 
+ 
+
+00:03:58.630 --> 00:04:01.030 align:start position:0%
+ 
+ 
+
+00:04:01.030 --> 00:04:03.270 align:start position:0%
+ 
+ 
+
+00:04:03.270 --> 00:04:05.750 align:start position:0%
+ 
+ 
+
+00:04:05.750 --> 00:04:05.760 align:start position:0%
+ 
+ 
+
+00:04:05.760 --> 00:04:07.270 align:start position:0%
+ 
+
+
+00:04:07.270 --> 00:04:09.589 align:start position:0%
+ 
+ 
+
+00:04:09.589 --> 00:04:09.599 align:start position:0%
+ 
+ 
+
+00:04:09.599 --> 00:04:11.589 align:start position:0%
+ 
+
+
+00:04:11.589 --> 00:04:15.030 align:start position:0%
+ 
+ 
+
+00:04:15.030 --> 00:04:17.110 align:start position:0%
+ 
+ 
+
+00:04:17.110 --> 00:04:19.749 align:start position:0%
+ 
+ 
+
+00:04:19.749 --> 00:04:21.590 align:start position:0%
+ 
+ 
+
+00:04:21.590 --> 00:04:21.600 align:start position:0%
+ 
+ 
+
+00:04:21.600 --> 00:04:22.870 align:start position:0%
+ 
+
+
+00:04:22.870 --> 00:04:25.110 align:start position:0%
+ 
+ 
+
+00:04:25.110 --> 00:04:26.710 align:start position:0%
+ 
+ 
+
+00:04:26.710 --> 00:04:28.950 align:start position:0%
+ 
+ 
+
+00:04:28.950 --> 00:04:30.629 align:start position:0%
+ 
+ 
+
+00:04:30.629 --> 00:04:33.430 align:start position:0%
+ 
+ 
+
+00:04:33.430 --> 00:04:37.110 align:start position:0%
+ 
+ 
+
+00:04:37.110 --> 00:04:40.710 align:start position:0%
+ 
+ 
+
+00:04:40.710 --> 00:04:43.030 align:start position:0%
+ 
+ 
+
+00:04:43.030 --> 00:04:45.990 align:start position:0%
+ 
+ 
+
+00:04:45.990 --> 00:04:47.909 align:start position:0%
+ 
+ 
+
+00:04:47.909 --> 00:04:49.990 align:start position:0%
+ 
+ 
+
+00:04:49.990 --> 00:04:50.000 align:start position:0%
+ 
+ 
+
+00:04:50.000 --> 00:04:50.710 align:start position:0%
+ 
+
+
+00:04:50.710 --> 00:04:53.189 align:start position:0%
+ 
+ 
+
+00:04:53.189 --> 00:04:55.830 align:start position:0%
+ 
+ 
+
+00:04:55.830 --> 00:04:58.790 align:start position:0%
+ 
+ 
+
+00:04:58.790 --> 00:05:00.390 align:start position:0%
+ 
+ 
+
+00:05:00.390 --> 00:05:02.710 align:start position:0%
+ 
+ 
+
+00:05:02.710 --> 00:05:02.720 align:start position:0%
+ 
+ 
+
+00:05:02.720 --> 00:05:03.990 align:start position:0%
+ 
+
+
+00:05:03.990 --> 00:05:04.000 align:start position:0%
+ 
+ 
+
+00:05:04.000 --> 00:05:04.790 align:start position:0%
+ 
+
+
+00:05:04.790 --> 00:05:06.790 align:start position:0%
+ 
+ 
+
+00:05:06.790 --> 00:05:09.510 align:start position:0%
+ 
+ 
+
+00:05:09.510 --> 00:05:11.909 align:start position:0%
+ 
+ 
+
+00:05:11.909 --> 00:05:15.029 align:start position:0%
+ 
+ 
+
+00:05:15.029 --> 00:05:18.390 align:start position:0%
+ 
+ 
+
+00:05:18.390 --> 00:05:22.310 align:start position:0%
+ 
+ 
+
+00:05:22.310 --> 00:05:22.320 align:start position:0%
+ 
+ 
+
+00:05:22.320 --> 00:05:23.189 align:start position:0%
+ 
+
+
+00:05:23.189 --> 00:05:26.469 align:start position:0%
+ 
+ 
+
+00:05:26.469 --> 00:05:28.469 align:start position:0%
+ 
+ 
+
+00:05:28.469 --> 00:05:28.479 align:start position:0%
+ 
+ 
+
+00:05:28.479 --> 00:05:29.510 align:start position:0%
+ 
+
+
+00:05:29.510 --> 00:05:32.230 align:start position:0%
+ 
+ 
+
+00:05:32.230 --> 00:05:35.270 align:start position:0%
+ 
+ 
+
+00:05:35.270 --> 00:05:38.790 align:start position:0%
+ 
+ 
+
+00:05:38.790 --> 00:05:41.670 align:start position:0%
+ 
+ 
+
+00:05:41.670 --> 00:05:43.830 align:start position:0%
+ 
+ 
+
+00:05:43.830 --> 00:05:46.950 align:start position:0%
+ 
+ 
+
+00:05:46.950 --> 00:05:50.150 align:start position:0%
+ 
+ 
+
+00:05:50.150 --> 00:05:53.670 align:start position:0%
+ 
+ 
+
+00:05:53.670 --> 00:05:53.680 align:start position:0%
+ 
+ 
+
+00:05:53.680 --> 00:05:54.790 align:start position:0%
+ 
+
+
+00:05:54.790 --> 00:05:56.950 align:start position:0%
+ 
+ 
+
+00:05:56.950 --> 00:06:00.950 align:start position:0%
+ 
+ 
+
+00:06:00.950 --> 00:06:00.960 align:start position:0%
+ 
+ 
+
+00:06:00.960 --> 00:06:01.670 align:start position:0%
+ 
+
+
+00:06:01.670 --> 00:06:04.629 align:start position:0%
+ 
+ 
+
+00:06:04.629 --> 00:06:04.639 align:start position:0%
+ 
+ 
+
+00:06:04.639 --> 00:06:06.390 align:start position:0%
+ 
+
+
+00:06:06.390 --> 00:06:09.110 align:start position:0%
+ 
+ 
+
+00:06:09.110 --> 00:06:11.909 align:start position:0%
+ 
+ 
+
+00:06:11.909 --> 00:06:13.670 align:start position:0%
+ 
+ 
+
+00:06:13.670 --> 00:06:17.189 align:start position:0%
+ 
+ 
+
+00:06:17.189 --> 00:06:17.199 align:start position:0%
+ 
+ 
+
+00:06:17.199 --> 00:06:19.990 align:start position:0%
+ 
+
+
+00:06:19.990 --> 00:06:22.550 align:start position:0%
+ 
+ 
+
+00:06:22.550 --> 00:06:23.110 align:start position:0%
+ 
+ 
+
+00:06:23.110 --> 00:06:23.120 align:start position:0%
+ 
+ 
+
+00:06:23.120 --> 00:06:24.230 align:start position:0%
+ 
+
+
+00:06:24.230 --> 00:06:27.350 align:start position:0%
+ 
+ 
+
+00:06:27.350 --> 00:06:31.270 align:start position:0%
+ 
+ 
+
+00:06:31.270 --> 00:06:33.830 align:start position:0%
+ 
+ 
+
+00:06:33.830 --> 00:06:35.510 align:start position:0%
+ 
+ 
+
+00:06:35.510 --> 00:06:37.430 align:start position:0%
+ 
+ 
+
+00:06:37.430 --> 00:06:37.440 align:start position:0%
+ 
+ 
+
+00:06:37.440 --> 00:06:38.550 align:start position:0%
+ 
+
+
+00:06:38.550 --> 00:06:38.560 align:start position:0%
+ 
+ 
+
+00:06:38.560 --> 00:06:39.670 align:start position:0%
+ 
+
+
+00:06:39.670 --> 00:06:41.590 align:start position:0%
+ 
+ 
+
+00:06:41.590 --> 00:06:45.350 align:start position:0%
+ 
+ 
+
+00:06:45.350 --> 00:06:47.510 align:start position:0%
+ 
+ 
+
+00:06:47.510 --> 00:06:49.990 align:start position:0%
+ 
+ 
+
+00:06:49.990 --> 00:06:50.000 align:start position:0%
+ 
+ 
+
+00:06:50.000 --> 00:06:51.110 align:start position:0%
+ 
+
+
+00:06:51.110 --> 00:06:51.120 align:start position:0%
+ 
+ 
+
+00:06:51.120 --> 00:06:52.710 align:start position:0%
+ 
+
+
+00:06:52.710 --> 00:06:57.110 align:start position:0%
+ 
+ 
+
+00:06:57.110 --> 00:07:01.270 align:start position:0%
+ 
+ 
+
+00:07:01.270 --> 00:07:04.150 align:start position:0%
+ 
+ 
+
+00:07:04.150 --> 00:07:06.790 align:start position:0%
+ 
+ 
+
+00:07:06.790 --> 00:07:08.950 align:start position:0%
+ 
+ 
+
+00:07:08.950 --> 00:07:08.960 align:start position:0%
+ 
+ 
+
+00:07:08.960 --> 00:07:10.469 align:start position:0%
+ 
+
+
+00:07:10.469 --> 00:07:11.830 align:start position:0%
+ 
+ 
+
+00:07:11.830 --> 00:07:17.990 align:start position:0%
+ 
+ 
+
+00:07:17.990 --> 00:07:18.000 align:start position:0%
+ 
+ 
+
+00:07:18.000 --> 00:07:19.270 align:start position:0%
+ 
+
+
+00:07:19.270 --> 00:07:22.150 align:start position:0%
+ 
+ 
+
+00:07:22.150 --> 00:07:22.160 align:start position:0%
+ 
+ 
+
+00:07:22.160 --> 00:07:23.270 align:start position:0%
+ 
+
+
+00:07:23.270 --> 00:07:26.390 align:start position:0%
+ 
+ 
+
+00:07:26.390 --> 00:07:28.950 align:start position:0%
+ 
+ 
+
+00:07:28.950 --> 00:07:28.960 align:start position:0%
+ 
+ 
+
+00:07:28.960 --> 00:07:30.469 align:start position:0%
+ 
+
+
+00:07:30.469 --> 00:07:30.479 align:start position:0%
+ 
+ 
+
+00:07:30.479 --> 00:07:31.990 align:start position:0%
+ 
+
+
+00:07:31.990 --> 00:07:34.550 align:start position:0%
+ 
+ 
+
+00:07:34.550 --> 00:07:36.710 align:start position:0%
+ 
+ 
+
+00:07:36.710 --> 00:07:40.070 align:start position:0%
+ 
+ 
+
+00:07:40.070 --> 00:07:43.189 align:start position:0%
+ 
+ 
+
+00:07:43.189 --> 00:07:46.710 align:start position:0%
+ 
+ 
+
+00:07:46.710 --> 00:07:49.909 align:start position:0%
+ 
+ 
+
+00:07:49.909 --> 00:07:54.469 align:start position:0%
+ 
+ 
+
+00:07:54.469 --> 00:07:56.869 align:start position:0%
+ 
+ 
+
+00:07:56.869 --> 00:08:00.469 align:start position:0%
+ 
+ 
+
+00:08:00.469 --> 00:08:04.150 align:start position:0%
+ 
+ 
+
+00:08:04.150 --> 00:08:07.189 align:start position:0%
+ 
+ 
+
+00:08:07.189 --> 00:08:09.589 align:start position:0%
+ 
+ 
+
+00:08:09.589 --> 00:08:11.110 align:start position:0%
+ 
+ 
+
+00:08:11.110 --> 00:08:13.830 align:start position:0%
+ 
+ 
+
+00:08:13.830 --> 00:08:17.350 align:start position:0%
+ 
+ 
+
+00:08:17.350 --> 00:08:19.830 align:start position:0%
+ 
+ 
+
+00:08:19.830 --> 00:08:22.230 align:start position:0%
+ 
+ 
+
+00:08:22.230 --> 00:08:24.830 align:start position:0%
+ 
+ 
+
+00:08:24.830 --> 00:08:28.390 align:start position:0%
+ 
+ 
+
+00:08:28.390 --> 00:08:31.909 align:start position:0%
+ 
+ 
+
+00:08:31.909 --> 00:08:31.919 align:start position:0%
+ 
+ 
+
+00:08:31.919 --> 00:08:32.790 align:start position:0%
+ 
+
+
+00:08:32.790 --> 00:08:34.949 align:start position:0%
+ 
+ 
+
+00:08:34.949 --> 00:08:37.750 align:start position:0%
+ 
+ 
+
+00:08:37.750 --> 00:08:37.760 align:start position:0%
+ 
+ 
+
+00:08:37.760 --> 00:08:40.149 align:start position:0%
+ 
+
+
+00:08:40.149 --> 00:08:41.829 align:start position:0%
+ 
+ 
+
+00:08:41.829 --> 00:08:43.909 align:start position:0%
+ 
+ 
+
+00:08:43.909 --> 00:08:48.710 align:start position:0%
+ 
+ 
+
+00:08:48.710 --> 00:08:51.269 align:start position:0%
+ 
+ 
+
+00:08:51.269 --> 00:08:55.910 align:start position:0%
+ 
+ 
+
+00:08:55.910 --> 00:08:58.150 align:start position:0%
+ 
+ 
+
+00:08:58.150 --> 00:08:59.750 align:start position:0%
+ 
+ 
+
+00:08:59.750 --> 00:09:03.110 align:start position:0%
+ 
+ 
+
+00:09:03.110 --> 00:09:05.670 align:start position:0%
+ 
+ 
+
+00:09:05.670 --> 00:09:07.590 align:start position:0%
+ 
+ 
+
+00:09:07.590 --> 00:09:07.600 align:start position:0%
+ 
+ 
+
+00:09:07.600 --> 00:09:09.269 align:start position:0%
+ 
+
+
+00:09:09.269 --> 00:09:11.269 align:start position:0%
+ 
+ 
+
+00:09:11.269 --> 00:09:11.279 align:start position:0%
+ 
+ 
+
+00:09:11.279 --> 00:09:12.230 align:start position:0%
+ 
+
+
+00:09:12.230 --> 00:09:14.310 align:start position:0%
+ 
+ 
+
+00:09:14.310 --> 00:09:16.310 align:start position:0%
+ 
+ 
+
+00:09:16.310 --> 00:09:18.550 align:start position:0%
+ 
+ 
+
+00:09:18.550 --> 00:09:20.230 align:start position:0%
+ 
+ 
+
+00:09:20.230 --> 00:09:22.710 align:start position:0%
+ 
+ 
+
+00:09:22.710 --> 00:09:25.350 align:start position:0%
+ 
+ 
+
+00:09:25.350 --> 00:09:25.360 align:start position:0%
+ 
+ 
+
+00:09:25.360 --> 00:09:27.829 align:start position:0%
+ 
+
+
+00:09:27.829 --> 00:09:29.990 align:start position:0%
+ 
+ 
+
+00:09:29.990 --> 00:09:32.470 align:start position:0%
+ 
+ 
+
+00:09:32.470 --> 00:09:35.269 align:start position:0%
+ 
+ 
+
+00:09:35.269 --> 00:09:37.750 align:start position:0%
+ 
+ 
+
+00:09:37.750 --> 00:09:39.910 align:start position:0%
+ 
+ 
+
+00:09:39.910 --> 00:09:43.910 align:start position:0%
+ 
+ 
+
+00:09:43.910 --> 00:09:45.910 align:start position:0%
+ 
+ 
+
+00:09:45.910 --> 00:09:47.590 align:start position:0%
+ 
+ 
+
+00:09:47.590 --> 00:09:49.829 align:start position:0%
+ 
+ 
+
+00:09:49.829 --> 00:09:51.750 align:start position:0%
+ 
+ 
+
+00:09:51.750 --> 00:09:51.760 align:start position:0%
+ 
+ 
+
+00:09:51.760 --> 00:09:57.509 align:start position:0%
+ 
+
+
+00:09:57.509 --> 00:10:00.150 align:start position:0%
+ 
+ 
+
+00:10:00.150 --> 00:10:01.590 align:start position:0%
+ 
+ 
+
+00:10:01.590 --> 00:10:04.069 align:start position:0%
+ 
+ 
+
+00:10:04.069 --> 00:10:06.230 align:start position:0%
+ 
+ 
+
+00:10:06.230 --> 00:10:08.710 align:start position:0%
+ 
+ 
+
+00:10:08.710 --> 00:10:08.720 align:start position:0%
+ 
+ 
+
+00:10:08.720 --> 00:10:09.750 align:start position:0%
+ 
+
+
+00:10:09.750 --> 00:10:11.030 align:start position:0%
+ 
+ 
+
+00:10:11.030 --> 00:10:13.829 align:start position:0%
+ 
+ 
+
+00:10:13.829 --> 00:10:15.590 align:start position:0%
+ 
+ 
+
+00:10:15.590 --> 00:10:18.949 align:start position:0%
+ 
+ 
+
+00:10:18.949 --> 00:10:20.790 align:start position:0%
+ 
+ 
+
+00:10:20.790 --> 00:10:22.389 align:start position:0%
+ 
+ 
+
+00:10:22.389 --> 00:10:25.590 align:start position:0%
+ 
+ 
+
+00:10:25.590 --> 00:10:27.670 align:start position:0%
+ 
+ 
+
+00:10:27.670 --> 00:10:29.110 align:start position:0%
+ 
+ 
+
+00:10:29.110 --> 00:10:32.230 align:start position:0%
+ 
+ 
+
+00:10:32.230 --> 00:10:35.590 align:start position:0%
+ 
+ 
+
+00:10:35.590 --> 00:10:39.030 align:start position:0%
+ 
+ 
+
+00:10:39.030 --> 00:10:41.269 align:start position:0%
+ 
+ 
+
+00:10:41.269 --> 00:10:41.279 align:start position:0%
+ 
+ 
+
+00:10:41.279 --> 00:10:43.190 align:start position:0%
+ 
+
+
+00:10:43.190 --> 00:10:44.949 align:start position:0%
+ 
+ 
+
+00:10:44.949 --> 00:10:50.790 align:start position:0%
+ 
+ 
+
+00:10:50.790 --> 00:10:50.800 align:start position:0%
+ 
+ 
+
+00:10:50.800 --> 00:10:51.750 align:start position:0%
+ 
+
+
+00:10:51.750 --> 00:10:54.550 align:start position:0%
+ 
+ 
+
+00:10:54.550 --> 00:10:57.829 align:start position:0%
+ 
+ 
+
+00:10:57.829 --> 00:11:00.550 align:start position:0%
+ 
+ 
+
+00:11:00.550 --> 00:11:00.560 align:start position:0%
+ 
+ 
+
+00:11:00.560 --> 00:11:03.190 align:start position:0%
+ 
+
+
+00:11:03.190 --> 00:11:05.990 align:start position:0%
+ 
+ 
+
+00:11:05.990 --> 00:11:06.000 align:start position:0%
+ 
+ 
+
+00:11:06.000 --> 00:11:07.990 align:start position:0%
+ 
+
+
+00:11:07.990 --> 00:11:08.000 align:start position:0%
+ 
+ 
+
+00:11:08.000 --> 00:11:10.550 align:start position:0%
+ 
+
+
+00:11:10.550 --> 00:11:13.269 align:start position:0%
+ 
+ 
+
+00:11:13.269 --> 00:11:15.509 align:start position:0%
+ 
+ 
+
+00:11:15.509 --> 00:11:15.519 align:start position:0%
+ 
+ 
+
+00:11:15.519 --> 00:11:17.030 align:start position:0%
+ 
+
+
+00:11:17.030 --> 00:11:18.630 align:start position:0%
+ 
+ 
+
+00:11:18.630 --> 00:11:22.470 align:start position:0%
+ 
+ 
+
+00:11:22.470 --> 00:11:25.110 align:start position:0%
+ 
+ 
+
+00:11:25.110 --> 00:11:28.870 align:start position:0%
+ 
+ 
+
+00:11:28.870 --> 00:11:28.880 align:start position:0%
+ 
+ 
+
+00:11:28.880 --> 00:11:30.310 align:start position:0%
+ 
+
+
+00:11:30.310 --> 00:11:32.550 align:start position:0%
+ 
+ 
+
+00:11:32.550 --> 00:11:35.430 align:start position:0%
+ 
+ 
+
+00:11:35.430 --> 00:11:35.440 align:start position:0%
+ 
+ 
+
+00:11:35.440 --> 00:11:36.470 align:start position:0%
+ 
+
+
+00:11:36.470 --> 00:11:38.310 align:start position:0%
+ 
+ 
+
+00:11:38.310 --> 00:11:40.069 align:start position:0%
+ 
+ 
+
+00:11:40.069 --> 00:11:43.110 align:start position:0%
+ 
+ 
+
+00:11:43.110 --> 00:11:43.120 align:start position:0%
+ 
+ 
+
+00:11:43.120 --> 00:11:44.470 align:start position:0%
+ 
+
+
+00:11:44.470 --> 00:11:45.990 align:start position:0%
+ 
+ 
+
+00:11:45.990 --> 00:11:46.000 align:start position:0%
+ 
+ 
+
+00:11:46.000 --> 00:11:46.870 align:start position:0%
+ 
+
+
+00:11:46.870 --> 00:11:49.350 align:start position:0%
+ 
+ 
+
+00:11:49.350 --> 00:11:53.350 align:start position:0%
+ 
+ 
+
+00:11:53.350 --> 00:11:57.030 align:start position:0%
+ 
+ 
+
+00:11:57.030 --> 00:12:00.629 align:start position:0%
+ 
+ 
+
+00:12:00.629 --> 00:12:02.949 align:start position:0%
+ 
+ 
+
+00:12:02.949 --> 00:12:07.269 align:start position:0%
+ 
+ 
+
+00:12:07.269 --> 00:12:09.269 align:start position:0%
+ 
+ 
+
+00:12:09.269 --> 00:12:10.629 align:start position:0%
+ 
+ 
+
+00:12:10.629 --> 00:12:12.949 align:start position:0%
+ 
+ 
+
+00:12:12.949 --> 00:12:15.990 align:start position:0%
+ 
+ 
+
+00:12:15.990 --> 00:12:19.509 align:start position:0%
+ 
+ 
+
+00:12:19.509 --> 00:12:20.629 align:start position:0%
+ 
+ 
+
+00:12:20.629 --> 00:12:23.670 align:start position:0%
+ 
+ 
+
+00:12:23.670 --> 00:12:23.680 align:start position:0%
+ 
+ 
+
+00:12:23.680 --> 00:12:24.949 align:start position:0%
+ 
+
+
+00:12:24.949 --> 00:12:27.750 align:start position:0%
+ 
+ 
+
+00:12:27.750 --> 00:12:27.760 align:start position:0%
+ 
+ 
+
+00:12:27.760 --> 00:12:30.230 align:start position:0%
+ 
+
+
+00:12:30.230 --> 00:12:32.949 align:start position:0%
+ 
+ 
+
+00:12:32.949 --> 00:12:35.509 align:start position:0%
+ 
+ 
+
+00:12:35.509 --> 00:12:38.470 align:start position:0%
+ 
+ 
+
+00:12:38.470 --> 00:12:41.269 align:start position:0%
+ 
+ 
+
+00:12:41.269 --> 00:12:43.750 align:start position:0%
+ 
+ 
+
+00:12:43.750 --> 00:12:43.760 align:start position:0%
+ 
+ 
+
+00:12:43.760 --> 00:12:45.590 align:start position:0%
+ 
+
+
+00:12:45.590 --> 00:12:47.910 align:start position:0%
+ 
+ 
+
+00:12:47.910 --> 00:12:49.509 align:start position:0%
+ 
+ 
+
+00:12:49.509 --> 00:12:49.519 align:start position:0%
+ 
+ 
+
+00:12:49.519 --> 00:12:50.470 align:start position:0%
+ 
+
+
+00:12:50.470 --> 00:12:52.790 align:start position:0%
+ 
+ 
+
+00:12:52.790 --> 00:12:54.710 align:start position:0%
+ 
+ 
+
+00:12:54.710 --> 00:12:57.269 align:start position:0%
+ 
+ 
+
+00:12:57.269 --> 00:12:59.990 align:start position:0%
+ 
+ 
+
+00:12:59.990 --> 00:13:02.310 align:start position:0%
+ 
+ 
+
+00:13:02.310 --> 00:13:02.320 align:start position:0%
+ 
+ 
+
+00:13:02.320 --> 00:13:04.389 align:start position:0%
+ 
+
+
+00:13:04.389 --> 00:13:07.269 align:start position:0%
+ 
+ 
+
+00:13:07.269 --> 00:13:09.509 align:start position:0%
+ 
+ 
+
+00:13:09.509 --> 00:13:12.310 align:start position:0%
+ 
+ 
+
+00:13:12.310 --> 00:13:18.790 align:start position:0%
+ 
+ 
+
+00:13:18.790 --> 00:13:21.750 align:start position:0%
+ 
+ 
+
+00:13:21.750 --> 00:13:24.069 align:start position:0%
+ 
+ 
+
+00:13:24.069 --> 00:13:26.710 align:start position:0%
+ 
+ 
+
+00:13:26.710 --> 00:13:28.230 align:start position:0%
+ 
+ 
+
+00:13:28.230 --> 00:13:29.910 align:start position:0%
+ 
+ 
+
+00:13:29.910 --> 00:13:32.949 align:start position:0%
+ 
+ 
+
+00:13:32.949 --> 00:13:32.959 align:start position:0%
+ 
+ 
+
+00:13:32.959 --> 00:13:34.949 align:start position:0%
+ 
+
+
+00:13:34.949 --> 00:13:36.389 align:start position:0%
+ 
+ 
+
+00:13:36.389 --> 00:13:38.629 align:start position:0%
+ 
+ 
+
+00:13:38.629 --> 00:13:40.870 align:start position:0%
+ 
+ 
+
+00:13:40.870 --> 00:13:43.990 align:start position:0%
+ 
+ 
+
+00:13:43.990 --> 00:13:48.310 align:start position:0%
+ 
+ 
+
+00:13:48.310 --> 00:13:51.990 align:start position:0%
+ 
+ 
+
+00:13:51.990 --> 00:13:53.910 align:start position:0%
+ 
+ 
+
+00:13:53.910 --> 00:13:53.920 align:start position:0%
+ 
+ 
+
+00:13:53.920 --> 00:13:55.269 align:start position:0%
+ 
+
+
+00:13:55.269 --> 00:13:55.279 align:start position:0%
+ 
+ 
+
+00:13:55.279 --> 00:13:56.069 align:start position:0%
+ 
+
+
+00:13:56.069 --> 00:13:58.790 align:start position:0%
+ 
+ 
+
+00:13:58.790 --> 00:14:01.750 align:start position:0%
+ 
+ 
+
+00:14:01.750 --> 00:14:05.910 align:start position:0%
+ 
+ 
+
+00:14:05.910 --> 00:14:08.470 align:start position:0%
+ 
+ 
+
+00:14:08.470 --> 00:14:09.990 align:start position:0%
+ 
+ 
+
+00:14:09.990 --> 00:14:13.350 align:start position:0%
+ 
+ 
+
+00:14:13.350 --> 00:14:15.829 align:start position:0%
+ 
+ 
+
+00:14:15.829 --> 00:14:17.910 align:start position:0%
+ 
+ 
+
+00:14:17.910 --> 00:14:20.629 align:start position:0%
+ 
+ 
+
+00:14:20.629 --> 00:14:24.870 align:start position:0%
+ 
+ 
+
+00:14:24.870 --> 00:14:26.069 align:start position:0%
+ 
+ 
+
+00:14:26.069 --> 00:14:27.990 align:start position:0%
+ 
+ 
+
+00:14:27.990 --> 00:14:31.350 align:start position:0%
+ 
+ 
+
+00:14:31.350 --> 00:14:34.310 align:start position:0%
+ 
+ 
+
+00:14:34.310 --> 00:14:37.350 align:start position:0%
+ 
+ 
+
+00:14:37.350 --> 00:14:37.360 align:start position:0%
+ 
+ 
+
+00:14:37.360 --> 00:14:38.949 align:start position:0%
+ 
+
+
+00:14:38.949 --> 00:14:41.189 align:start position:0%
+ 
+ 
+
+00:14:41.189 --> 00:14:41.199 align:start position:0%
+ 
+ 
+
+00:14:41.199 --> 00:14:43.350 align:start position:0%
+ 
+
+
+00:14:43.350 --> 00:14:43.360 align:start position:0%
+ 
+ 
+
+00:14:43.360 --> 00:14:44.470 align:start position:0%
+ 
+
+
+00:14:44.470 --> 00:14:47.910 align:start position:0%
+ 
+ 
+
+00:14:47.910 --> 00:14:47.920 align:start position:0%
+ 
+ 
+
+00:14:47.920 --> 00:14:49.750 align:start position:0%
+ 
+
+
+00:14:49.750 --> 00:14:54.870 align:start position:0%
+ 
+ 
+
+00:14:54.870 --> 00:14:56.949 align:start position:0%
+ 
+ 
+
+00:14:56.949 --> 00:14:59.269 align:start position:0%
+ 
+ 
+
+00:14:59.269 --> 00:15:01.030 align:start position:0%
+ 
+ 
+
+00:15:01.030 --> 00:15:03.910 align:start position:0%
+ 
+ 
+
+00:15:03.910 --> 00:15:03.920 align:start position:0%
+ 
+ 
+
+00:15:03.920 --> 00:15:06.389 align:start position:0%
+ 
+
+
+00:15:06.389 --> 00:15:08.870 align:start position:0%
+ 
+ 
+
+00:15:08.870 --> 00:15:11.030 align:start position:0%
+ 
+ 
+
+00:15:11.030 --> 00:15:12.870 align:start position:0%
+ 
+ 
+
+00:15:12.870 --> 00:15:15.110 align:start position:0%
+ 
+ 
+
+00:15:15.110 --> 00:15:15.120 align:start position:0%
+ 
+ 
+
+00:15:15.120 --> 00:15:17.030 align:start position:0%
+ 
+
+
+00:15:17.030 --> 00:15:18.710 align:start position:0%
+ 
+ 
+
+00:15:18.710 --> 00:15:18.720 align:start position:0%
+ 
+ 
+
+00:15:18.720 --> 00:15:21.030 align:start position:0%
+ 
+
+
+00:15:21.030 --> 00:15:24.470 align:start position:0%
+ 
+ 
+
+00:15:24.470 --> 00:15:28.069 align:start position:0%
+ 
+ 
+
+00:15:28.069 --> 00:15:31.350 align:start position:0%
+ 
+ 
+
+00:15:31.350 --> 00:15:34.710 align:start position:0%
+ 
+ 
+
+00:15:34.710 --> 00:15:38.230 align:start position:0%
+ 
+ 
+
+00:15:38.230 --> 00:15:40.710 align:start position:0%
+ 
+ 
+
+00:15:40.710 --> 00:15:43.509 align:start position:0%
+ 
+ 
+
+00:15:43.509 --> 00:15:45.670 align:start position:0%
+ 
+ 
+
+00:15:45.670 --> 00:15:47.910 align:start position:0%
+ 
+ 
+
+00:15:47.910 --> 00:15:47.920 align:start position:0%
+ 
+ 
+
+00:15:47.920 --> 00:15:49.350 align:start position:0%
+ 
+
+
+00:15:49.350 --> 00:15:51.350 align:start position:0%
+ 
+ 
+
+00:15:51.350 --> 00:15:54.310 align:start position:0%
+ 
+ 
+
+00:15:54.310 --> 00:15:57.350 align:start position:0%
+ 
+ 
+
+00:15:57.350 --> 00:15:58.550 align:start position:0%
+ 
+ 
+
+00:15:58.550 --> 00:16:01.030 align:start position:0%
+ 
+ 
+
+00:16:01.030 --> 00:16:03.960 align:start position:0%
+ 
+ 
+
+00:16:03.960 --> 00:16:03.970 align:start position:0%
+ 
+ 
+
+00:16:03.970 --> 00:16:05.990 align:start position:0%
+ 
+
+
+00:16:05.990 --> 00:16:08.870 align:start position:0%
+ 
+ 
+
+00:16:08.870 --> 00:16:12.230 align:start position:0%
+ 
+ 
+
+00:16:12.230 --> 00:16:14.310 align:start position:0%
+ 
+ 
+
+00:16:14.310 --> 00:16:17.269 align:start position:0%
+ 
+ 
+
+00:16:17.269 --> 00:16:20.470 align:start position:0%
+ 
+ 
+
+00:16:20.470 --> 00:16:25.590 align:start position:0%
+ 
+ 
+
+00:16:25.590 --> 00:16:30.790 align:start position:0%
+ 
+ 
+
+00:16:30.790 --> 00:16:32.870 align:start position:0%
+ 
+ 
+
+00:16:32.870 --> 00:16:34.629 align:start position:0%
+ 
+ 
+
+00:16:34.629 --> 00:16:37.670 align:start position:0%
+ 
+ 
+
+00:16:37.670 --> 00:16:39.590 align:start position:0%
+ 
+ 
+
+00:16:39.590 --> 00:16:41.590 align:start position:0%
+ 
+ 
+
+00:16:41.590 --> 00:16:43.670 align:start position:0%
+ 
+ 
+
+00:16:43.670 --> 00:16:47.430 align:start position:0%
+ 
+ 
+
+00:16:47.430 --> 00:16:48.829 align:start position:0%
+ 
+ 
+
+00:16:48.829 --> 00:16:52.310 align:start position:0%
+ 
+ 
+
+00:16:52.310 --> 00:16:55.030 align:start position:0%
+ 
+ 
+
+00:16:55.030 --> 00:16:55.040 align:start position:0%
+ 
+ 
+
+00:16:55.040 --> 00:16:57.189 align:start position:0%
+ 
+
+
+00:16:57.189 --> 00:16:59.590 align:start position:0%
+ 
+ 
+
+00:16:59.590 --> 00:16:59.600 align:start position:0%
+ 
+ 
+
+00:16:59.600 --> 00:17:02.430 align:start position:0%
+ 
+
+
+00:17:02.430 --> 00:17:02.440 align:start position:0%
+ 
+ 
+
+00:17:02.440 --> 00:17:03.509 align:start position:0%
+ 
+
+
+00:17:03.509 --> 00:17:06.230 align:start position:0%
+ 
+ 
+
+00:17:06.230 --> 00:17:10.470 align:start position:0%
+ 
+ 
+
+00:17:10.470 --> 00:17:12.470 align:start position:0%
+ 
+ 
+
+00:17:12.470 --> 00:17:16.230 align:start position:0%
+ 
+ 
+
+00:17:16.230 --> 00:17:20.230 align:start position:0%
+ 
+ 
+
+00:17:20.230 --> 00:17:22.069 align:start position:0%
+ 
+ 
+
+00:17:22.069 --> 00:17:24.390 align:start position:0%
+ 
+ 
+
+00:17:24.390 --> 00:17:34.710 align:start position:0%
+ 
+ 
+
+00:17:34.710 --> 00:17:34.720 align:start position:0%
+ 
+ 
+
+00:17:34.720 --> 00:17:36.470 align:start position:0%
+ 
+
+
+00:17:36.470 --> 00:17:38.630 align:start position:0%
+ 
+ 
+
+00:17:38.630 --> 00:17:40.870 align:start position:0%
+ 
+ 
+
+00:17:40.870 --> 00:17:40.880 align:start position:0%
+ 
+ 
+
+00:17:40.880 --> 00:17:42.150 align:start position:0%
+ 
+
+
+00:17:42.150 --> 00:17:47.669 align:start position:0%
+ 
+ 
+
+00:17:47.669 --> 00:17:50.230 align:start position:0%
+ 
+ 
+
+00:17:50.230 --> 00:17:52.390 align:start position:0%
+ 
+ 
+
+00:17:52.390 --> 00:17:55.669 align:start position:0%
+ 
+ 
+
+00:17:55.669 --> 00:17:57.270 align:start position:0%
+ 
+ 
+
+00:17:57.270 --> 00:18:00.070 align:start position:0%
+ 
+ 
+
+00:18:00.070 --> 00:18:02.630 align:start position:0%
+ 
+ 
+
+00:18:02.630 --> 00:18:05.510 align:start position:0%
+ 
+ 
+
+00:18:05.510 --> 00:18:05.520 align:start position:0%
+ 
+ 
+
+00:18:05.520 --> 00:18:06.470 align:start position:0%
+ 
+
+
+00:18:06.470 --> 00:18:08.470 align:start position:0%
+ 
+ 
+
+00:18:08.470 --> 00:18:10.070 align:start position:0%
+ 
+ 
+
+00:18:10.070 --> 00:18:12.390 align:start position:0%
+ 
+ 
+
+00:18:12.390 --> 00:18:14.710 align:start position:0%
+ 
+ 
+
+00:18:14.710 --> 00:18:16.630 align:start position:0%
+ 
+ 
+
+00:18:16.630 --> 00:18:20.150 align:start position:0%
+ 
+ 
+
+00:18:20.150 --> 00:18:22.310 align:start position:0%
+ 
+ 
+
+00:18:22.310 --> 00:18:23.669 align:start position:0%
+ 
+ 
+
+00:18:23.669 --> 00:18:26.950 align:start position:0%
+ 
+ 
+
+00:18:26.950 --> 00:18:29.350 align:start position:0%
+ 
+ 
+
+00:18:29.350 --> 00:18:31.830 align:start position:0%
+ 
+ 
+
+00:18:31.830 --> 00:18:40.630 align:start position:0%
+ 
+ 
+
+00:18:40.630 --> 00:18:43.990 align:start position:0%
+ 
+ 
+
+00:18:43.990 --> 00:18:47.190 align:start position:0%
+ 
+ 
+
+00:18:47.190 --> 00:18:49.590 align:start position:0%
+ 
+ 
+
+00:18:49.590 --> 00:18:51.430 align:start position:0%
+ 
+ 
+
+00:18:51.430 --> 00:18:53.110 align:start position:0%
+ 
+ 
+
+00:18:53.110 --> 00:18:56.390 align:start position:0%
+ 
+ 
+
+00:18:56.390 --> 00:18:59.909 align:start position:0%
+ 
+ 
+
+00:18:59.909 --> 00:19:02.710 align:start position:0%
+ 
+ 
+
+00:19:02.710 --> 00:19:05.190 align:start position:0%
+ 
+ 
+
+00:19:05.190 --> 00:19:07.909 align:start position:0%
+ 
+ 
+
+00:19:07.909 --> 00:19:10.070 align:start position:0%
+ 
+ 
+
+00:19:10.070 --> 00:19:13.430 align:start position:0%
+ 
+ 
+
+00:19:13.430 --> 00:19:17.510 align:start position:0%
+ 
+ 
+
+00:19:17.510 --> 00:19:19.909 align:start position:0%
+ 
+ 
+
+00:19:19.909 --> 00:19:22.390 align:start position:0%
+ 
+ 
+
+00:19:22.390 --> 00:19:25.350 align:start position:0%
+ 
+ 
+
+00:19:25.350 --> 00:19:29.110 align:start position:0%
+ 
+ 
+
+00:19:29.110 --> 00:19:29.120 align:start position:0%
+ 
+ 
+
+00:19:29.120 --> 00:19:32.549 align:start position:0%
+ 
+
+
+00:19:32.549 --> 00:19:34.630 align:start position:0%
+ 
+ 
+
+00:19:34.630 --> 00:19:37.190 align:start position:0%
+ 
+ 
+
+00:19:37.190 --> 00:19:39.510 align:start position:0%
+ 
+ 
+
+00:19:39.510 --> 00:19:41.430 align:start position:0%
+ 
+ 
+
+00:19:41.430 --> 00:19:44.070 align:start position:0%
+ 
+ 
+
+00:19:44.070 --> 00:19:47.270 align:start position:0%
+ 
+ 
+
+00:19:47.270 --> 00:19:49.110 align:start position:0%
+ 
+ 
+
+00:19:49.110 --> 00:19:56.230 align:start position:0%
+ 
+ 
+
+00:19:56.230 --> 00:19:58.310 align:start position:0%
+ 
+ 
+
+00:19:58.310 --> 00:20:00.710 align:start position:0%
+ 
+ 
+
+00:20:00.710 --> 00:20:02.789 align:start position:0%
+ 
+ 
+
+00:20:02.789 --> 00:20:05.029 align:start position:0%
+ 
+ 
+
+00:20:05.029 --> 00:20:08.710 align:start position:0%
+ 
+ 
+
+00:20:08.710 --> 00:20:10.310 align:start position:0%
+ 
+ 
+
+00:20:10.310 --> 00:20:12.390 align:start position:0%
+ 
+ 
+
+00:20:12.390 --> 00:20:15.029 align:start position:0%
+ 
+ 
+
+00:20:15.029 --> 00:20:16.149 align:start position:0%
+ 
+ 
+
+00:20:16.149 --> 00:20:19.190 align:start position:0%
+ 
+ 
+
+00:20:19.190 --> 00:20:21.430 align:start position:0%
+ 
+ 
+
+00:20:21.430 --> 00:20:24.789 align:start position:0%
+ 
+ 
+
+00:20:24.789 --> 00:20:26.789 align:start position:0%
+ 
+ 
+
+00:20:26.789 --> 00:20:31.669 align:start position:0%
+ 
+ 
+
+00:20:31.669 --> 00:20:31.679 align:start position:0%
+ 
+ 
+
+00:20:31.679 --> 00:20:33.830 align:start position:0%
+ 
+
+
+00:20:33.830 --> 00:20:35.350 align:start position:0%
+ 
+ 
+
+00:20:35.350 --> 00:20:37.830 align:start position:0%
+ 
+ 
+
+00:20:37.830 --> 00:20:39.750 align:start position:0%
+ 
+ 
+
+00:20:39.750 --> 00:20:43.669 align:start position:0%
+ 
+ 
+
+00:20:43.669 --> 00:20:46.830 align:start position:0%
+ 
+ 
+
+00:20:46.830 --> 00:20:49.430 align:start position:0%
+ 
+ 
+
+00:20:49.430 --> 00:20:52.630 align:start position:0%
+ 
+ 
+
+00:20:52.630 --> 00:20:55.029 align:start position:0%
+ 
+ 
+
+00:20:55.029 --> 00:20:57.110 align:start position:0%
+ 
+ 
+
+00:20:57.110 --> 00:21:05.909 align:start position:0%
+ 
+ 
+
+00:21:05.909 --> 00:21:08.710 align:start position:0%
+ 
+ 
+
+00:21:08.710 --> 00:21:11.430 align:start position:0%
+ 
+ 
+
+00:21:11.430 --> 00:21:13.110 align:start position:0%
+ 
+ 
+
+00:21:13.110 --> 00:21:15.190 align:start position:0%
+ 
+ 
+
+00:21:15.190 --> 00:21:15.200 align:start position:0%
+ 
+ 
+
+00:21:15.200 --> 00:21:17.750 align:start position:0%
+ 
+
+
+00:21:17.750 --> 00:21:22.230 align:start position:0%
+ 
+ 
+
+00:21:22.230 --> 00:21:24.470 align:start position:0%
+ 
+ 
+
+00:21:24.470 --> 00:21:26.149 align:start position:0%
+ 
+ 
+
+00:21:26.149 --> 00:21:27.990 align:start position:0%
+ 
+ 
+
+00:21:27.990 --> 00:21:28.000 align:start position:0%
+ 
+ 
+
+00:21:28.000 --> 00:21:28.710 align:start position:0%
+ 
+
+
+00:21:28.710 --> 00:21:34.630 align:start position:0%
+ 
+ 
+
+00:21:34.630 --> 00:21:37.029 align:start position:0%
+ 
+ 
+
+00:21:37.029 --> 00:21:38.789 align:start position:0%
+ 
+ 
+
+00:21:38.789 --> 00:21:41.029 align:start position:0%
+ 
+ 
+
+00:21:41.029 --> 00:21:41.039 align:start position:0%
+ 
+ 
+
+00:21:41.039 --> 00:21:42.230 align:start position:0%
+ 
+
+
+00:21:42.230 --> 00:21:44.390 align:start position:0%
+ 
+ 
+
+00:21:44.390 --> 00:21:46.710 align:start position:0%
+ 
+ 
+
+00:21:46.710 --> 00:21:49.270 align:start position:0%
+ 
+ 
+
+00:21:49.270 --> 00:21:55.830 align:start position:0%
+ 
+ 
+
+00:21:55.830 --> 00:22:00.310 align:start position:0%
+ 
+ 
+
+00:22:00.310 --> 00:22:02.390 align:start position:0%
+ 
+ 
+
+00:22:02.390 --> 00:22:05.350 align:start position:0%
+ 
+ 
+
+00:22:05.350 --> 00:22:07.510 align:start position:0%
+ 
+ 
+
+00:22:07.510 --> 00:22:07.520 align:start position:0%
+ 
+ 
+
+00:22:07.520 --> 00:22:08.390 align:start position:0%
+ 
+
+
+00:22:08.390 --> 00:22:12.310 align:start position:0%
+ 
+ 
+
+00:22:12.310 --> 00:22:15.750 align:start position:0%
+ 
+ 
+
+00:22:15.750 --> 00:22:15.760 align:start position:0%
+ 
+ 
+
+00:22:15.760 --> 00:22:16.549 align:start position:0%
+ 
+
+
+00:22:16.549 --> 00:22:16.559 align:start position:0%
+ 
+ 
+
+00:22:16.559 --> 00:22:17.990 align:start position:0%
+ 
+
+
+00:22:17.990 --> 00:22:20.470 align:start position:0%
+ 
+ 
+
+00:22:20.470 --> 00:22:21.909 align:start position:0%
+ 
+ 
+
+00:22:21.909 --> 00:22:24.149 align:start position:0%
+ 
+ 
+
+00:22:24.149 --> 00:22:24.159 align:start position:0%
+ 
+ 
+
+00:22:24.159 --> 00:22:27.190 align:start position:0%
+ 
+
+
+00:22:27.190 --> 00:22:32.630 align:start position:0%
+ 
+ 
+
+00:22:32.630 --> 00:22:35.350 align:start position:0%
+ 
+ 
+
+00:22:35.350 --> 00:22:37.430 align:start position:0%
+ 
+ 
+
+00:22:37.430 --> 00:22:39.590 align:start position:0%
+ 
+ 
+
+00:22:39.590 --> 00:22:41.909 align:start position:0%
+ 
+ 
+
+00:22:41.909 --> 00:22:44.390 align:start position:0%
+ 
+ 
+
+00:22:44.390 --> 00:22:47.350 align:start position:0%
+ 
+ 
+
+00:22:47.350 --> 00:22:49.190 align:start position:0%
+ 
+ 
+
+00:22:49.190 --> 00:22:57.110 align:start position:0%
+ 
+ 
+
+00:22:57.110 --> 00:22:58.870 align:start position:0%
+ 
+ 
+
+00:22:58.870 --> 00:23:01.190 align:start position:0%
+ 
+ 
+
+00:23:01.190 --> 00:23:03.190 align:start position:0%
+ 
+ 
+
+00:23:03.190 --> 00:23:07.190 align:start position:0%
+ 
+ 
+
+00:23:07.190 --> 00:23:10.950 align:start position:0%
+ 
+ 
+
+00:23:10.950 --> 00:23:12.950 align:start position:0%
+ 
+ 
+
+00:23:12.950 --> 00:23:15.110 align:start position:0%
+ 
+ 
+
+00:23:15.110 --> 00:23:18.390 align:start position:0%
+ 
+ 
+
+00:23:18.390 --> 00:23:21.750 align:start position:0%
+ 
+ 
+
+00:23:21.750 --> 00:23:28.870 align:start position:0%
+ 
+ 
+
+00:23:28.870 --> 00:23:28.880 align:start position:0%
+ 
+ 
+
+00:23:28.880 --> 00:23:29.990 align:start position:0%
+ 
+
+
+00:23:29.990 --> 00:23:30.000 align:start position:0%
+ 
+ 
+
+00:23:30.000 --> 00:23:30.870 align:start position:0%
+ 
+
+
+00:23:30.870 --> 00:23:32.710 align:start position:0%
+ 
+ 
+
+00:23:32.710 --> 00:23:35.350 align:start position:0%
+ 
+ 
+
+00:23:35.350 --> 00:23:37.190 align:start position:0%
+ 
+ 
+
+00:23:37.190 --> 00:23:40.149 align:start position:0%
+ 
+ 
+
+00:23:40.149 --> 00:23:40.159 align:start position:0%
+ 
+ 
+
+00:23:40.159 --> 00:23:42.390 align:start position:0%
+ 
+
+
+00:23:42.390 --> 00:23:44.950 align:start position:0%
+ 
+ 
+
+00:23:44.950 --> 00:23:44.960 align:start position:0%
+ 
+ 
+
+00:23:44.960 --> 00:23:47.029 align:start position:0%
+ 
+
+
+00:23:47.029 --> 00:23:49.269 align:start position:0%
+ 
+ 
+
+00:23:49.269 --> 00:23:49.279 align:start position:0%
+ 
+ 
+
+00:23:49.279 --> 00:23:50.549 align:start position:0%
+ 
+
+
+00:23:50.549 --> 00:23:54.870 align:start position:0%
+ 
+ 
+
+00:23:54.870 --> 00:23:57.590 align:start position:0%
+ 
+ 
+
+00:23:57.590 --> 00:24:00.470 align:start position:0%
+ 
+ 
+
+00:24:00.470 --> 00:24:02.230 align:start position:0%
+ 
+ 
+
+00:24:02.230 --> 00:24:05.110 align:start position:0%
+ 
+ 
+
+00:24:05.110 --> 00:24:06.870 align:start position:0%
+ 
+ 
+
+00:24:06.870 --> 00:24:09.110 align:start position:0%
+ 
+ 
+
+00:24:09.110 --> 00:24:11.669 align:start position:0%
+ 
+ 
+
+00:24:11.669 --> 00:24:13.269 align:start position:0%
+ 
+ 
+
+00:24:13.269 --> 00:24:13.279 align:start position:0%
+ 
+ 
+
+00:24:13.279 --> 00:24:15.190 align:start position:0%
+ 
+
+
+00:24:15.190 --> 00:24:18.230 align:start position:0%
+ 
+ 
+
+00:24:18.230 --> 00:24:20.549 align:start position:0%
+ 
+ 
+
+00:24:20.549 --> 00:24:20.559 align:start position:0%
+ 
+ 
+
+00:24:20.559 --> 00:24:22.149 align:start position:0%
+ 
+
+
+00:24:22.149 --> 00:24:25.750 align:start position:0%
+ 
+ 
+
+00:24:25.750 --> 00:24:28.950 align:start position:0%
+ 
+ 
+
+00:24:28.950 --> 00:24:31.110 align:start position:0%
+ 
+ 
+
+00:24:31.110 --> 00:24:33.350 align:start position:0%
+ 
+ 
+
+00:24:33.350 --> 00:24:33.360 align:start position:0%
+ 
+ 
+
+00:24:33.360 --> 00:24:35.029 align:start position:0%
+ 
+
+
+00:24:35.029 --> 00:24:37.269 align:start position:0%
+ 
+ 
+
+00:24:37.269 --> 00:24:38.630 align:start position:0%
+ 
+ 
+
+00:24:38.630 --> 00:24:41.990 align:start position:0%
+ 
+ 
+
+00:24:41.990 --> 00:24:45.590 align:start position:0%
+ 
+ 
+
+00:24:45.590 --> 00:24:46.950 align:start position:0%
+ 
+ 
+
+00:24:46.950 --> 00:24:49.190 align:start position:0%
+ 
+ 
+
+00:24:49.190 --> 00:24:53.029 align:start position:0%
+ 
+ 
+
+00:24:53.029 --> 00:24:55.430 align:start position:0%
+ 
+ 
+
+00:24:55.430 --> 00:24:57.590 align:start position:0%
+ 
+ 
+
+00:24:57.590 --> 00:25:00.070 align:start position:0%
+ 
+ 
+
+00:25:00.070 --> 00:25:02.870 align:start position:0%
+ 
+ 
+
+00:25:02.870 --> 00:25:09.669 align:start position:0%
+ 
+ 
+
+00:25:09.669 --> 00:25:11.510 align:start position:0%
+ 
+ 
+
+00:25:11.510 --> 00:25:14.470 align:start position:0%
+ 
+ 
+
+00:25:14.470 --> 00:25:16.789 align:start position:0%
+ 
+ 
+
+00:25:16.789 --> 00:25:16.799 align:start position:0%
+ 
+ 
+
+00:25:16.799 --> 00:25:19.669 align:start position:0%
+ 
+
+
+00:25:19.669 --> 00:25:19.679 align:start position:0%
+ 
+ 
+
+00:25:19.679 --> 00:25:20.630 align:start position:0%
+ 
+
+
+00:25:20.630 --> 00:25:24.789 align:start position:0%
+ 
+ 
+
+00:25:24.789 --> 00:25:27.830 align:start position:0%
+ 
+ 
+
+00:25:27.830 --> 00:25:30.390 align:start position:0%
+ 
+ 
+
+00:25:30.390 --> 00:25:33.029 align:start position:0%
+ 
+ 
+
+00:25:33.029 --> 00:25:33.039 align:start position:0%
+ 
+ 
+
+00:25:33.039 --> 00:25:35.029 align:start position:0%
+ 
+
+
+00:25:35.029 --> 00:25:40.310 align:start position:0%
+ 
+ 
+
+00:25:40.310 --> 00:25:43.029 align:start position:0%
+ 
+ 
+
+00:25:43.029 --> 00:25:43.039 align:start position:0%
+ 
+ 
+
+00:25:43.039 --> 00:25:44.149 align:start position:0%
+ 
+
+
+00:25:44.149 --> 00:25:46.870 align:start position:0%
+ 
+ 
+
+00:25:46.870 --> 00:25:51.110 align:start position:0%
+ 
+ 
+
+00:25:51.110 --> 00:25:55.269 align:start position:0%
+ 
+ 
+
+00:25:55.269 --> 00:25:58.630 align:start position:0%
+ 
+ 
+
+00:25:58.630 --> 00:26:01.750 align:start position:0%
+ 
+ 
+
+00:26:01.750 --> 00:26:06.390 align:start position:0%
+ 
+ 
+
+00:26:06.390 --> 00:26:09.110 align:start position:0%
+ 
+ 
+
+00:26:09.110 --> 00:26:10.630 align:start position:0%
+ 
+ 
+
+00:26:10.630 --> 00:26:12.870 align:start position:0%
+ 
+ 
+
+00:26:12.870 --> 00:26:14.870 align:start position:0%
+ 
+ 
+
+00:26:14.870 --> 00:26:17.190 align:start position:0%
+ 
+ 
+
+00:26:17.190 --> 00:26:18.630 align:start position:0%
+ 
+ 
+
+00:26:18.630 --> 00:26:20.470 align:start position:0%
+ 
+ 
+
+00:26:20.470 --> 00:26:20.480 align:start position:0%
+ 
+ 
+
+00:26:20.480 --> 00:26:21.750 align:start position:0%
+ 
+
+
+00:26:21.750 --> 00:26:23.990 align:start position:0%
+ 
+ 
+
+00:26:23.990 --> 00:26:26.710 align:start position:0%
+ 
+ 
+
+00:26:26.710 --> 00:26:27.909 align:start position:0%
+ 
+ 
+
+00:26:27.909 --> 00:26:30.470 align:start position:0%
+ 
+ 
+
+00:26:30.470 --> 00:26:32.870 align:start position:0%
+ 
+ 
+
+00:26:32.870 --> 00:26:32.880 align:start position:0%
+ 
+ 
+
+00:26:32.880 --> 00:26:34.630 align:start position:0%
+ 
+
+
+00:26:34.630 --> 00:26:36.310 align:start position:0%
+ 
+ 
+
+00:26:36.310 --> 00:26:38.950 align:start position:0%
+ 
+ 
+
+00:26:38.950 --> 00:26:41.590 align:start position:0%
+ 
+ 
+
+00:26:41.590 --> 00:26:46.310 align:start position:0%
+ 
+ 
+
+00:26:46.310 --> 00:26:48.549 align:start position:0%
+ 
+ 
+
+00:26:48.549 --> 00:26:48.559 align:start position:0%
+ 
+ 
+
+00:26:48.559 --> 00:26:50.710 align:start position:0%
+ 
+
+
+00:26:50.710 --> 00:26:53.029 align:start position:0%
+ 
+ 
+
+00:26:53.029 --> 00:26:56.549 align:start position:0%
+ 
+ 
+
+00:26:56.549 --> 00:27:00.870 align:start position:0%
+ 
+ 
+
+00:27:00.870 --> 00:27:00.880 align:start position:0%
+ 
+ 
+
+00:27:00.880 --> 00:27:03.029 align:start position:0%
+ 
+
+
+00:27:03.029 --> 00:27:05.350 align:start position:0%
+ 
+ 
+
+00:27:05.350 --> 00:27:07.110 align:start position:0%
+ 
+ 
+
+00:27:07.110 --> 00:27:12.870 align:start position:0%
+ 
+ 
+
+00:27:12.870 --> 00:27:15.110 align:start position:0%
+ 
+ 
+
+00:27:15.110 --> 00:27:18.149 align:start position:0%
+ 
+ 
+
+00:27:18.149 --> 00:27:20.389 align:start position:0%
+ 
+ 
+
+00:27:20.389 --> 00:27:23.669 align:start position:0%
+ 
+ 
+
+00:27:23.669 --> 00:27:27.990 align:start position:0%
+ 
+ 
+
+00:27:27.990 --> 00:27:31.510 align:start position:0%
+ 
+ 
+
+00:27:31.510 --> 00:27:33.669 align:start position:0%
+ 
+ 
+
+00:27:33.669 --> 00:27:35.350 align:start position:0%
+ 
+ 
+
+00:27:35.350 --> 00:27:37.669 align:start position:0%
+ 
+ 
+
+00:27:37.669 --> 00:27:39.909 align:start position:0%
+ 
+ 
+
+00:27:39.909 --> 00:27:42.789 align:start position:0%
+ 
+ 
+
+00:27:42.789 --> 00:27:45.510 align:start position:0%
+ 
+ 
+
+00:27:45.510 --> 00:27:47.990 align:start position:0%
+ 
+ 
+
+00:27:47.990 --> 00:27:51.110 align:start position:0%
+ 
+ 
+
+00:27:51.110 --> 00:27:54.310 align:start position:0%
+ 
+ 
+
+00:27:54.310 --> 00:27:56.549 align:start position:0%
+ 
+ 
+
+00:27:56.549 --> 00:27:58.950 align:start position:0%
+ 
+ 
+
+00:27:58.950 --> 00:28:01.510 align:start position:0%
+ 
+ 
+
+00:28:01.510 --> 00:28:04.950 align:start position:0%
+ 
+ 
+
+00:28:04.950 --> 00:28:04.960 align:start position:0%
+ 
+ 
+
+00:28:04.960 --> 00:28:06.710 align:start position:0%
+ 
+
+
+00:28:06.710 --> 00:28:11.909 align:start position:0%
+ 
+ 
+
+00:28:11.909 --> 00:28:11.919 align:start position:0%
+ 
+ 
+
+00:28:11.919 --> 00:28:12.950 align:start position:0%
+ 
+
+
+00:28:12.950 --> 00:28:15.110 align:start position:0%
+ 
+ 
+
+00:28:15.110 --> 00:28:16.389 align:start position:0%
+ 
+ 
+
+00:28:16.389 --> 00:28:18.860 align:start position:0%
+ 
+ 
+
+00:28:18.860 --> 00:28:18.870 align:start position:0%
+ 
+ 
+
+00:28:18.870 --> 00:28:19.990 align:start position:0%
+ 
+
+
+00:28:19.990 --> 00:28:24.389 align:start position:0%
+ 
+ 
+
+00:28:24.389 --> 00:28:24.399 align:start position:0%
+ 
+ 
+
+00:28:24.399 --> 00:28:25.669 align:start position:0%
+ 
+
+
+00:28:25.669 --> 00:28:27.990 align:start position:0%
+ 
+ 
+
+00:28:27.990 --> 00:28:30.950 align:start position:0%
+ 
+ 
+
+00:28:30.950 --> 00:28:34.549 align:start position:0%
+ 
+ 
+
+00:28:34.549 --> 00:28:36.870 align:start position:0%
+ 
+ 
+
+00:28:36.870 --> 00:28:39.510 align:start position:0%
+ 
+ 
+
+00:28:39.510 --> 00:28:43.510 align:start position:0%
+ 
+ 
+
+00:28:43.510 --> 00:28:45.350 align:start position:0%
+ 
+ 
+
+00:28:45.350 --> 00:28:48.789 align:start position:0%
+ 
+ 
+
+00:28:48.789 --> 00:28:48.799 align:start position:0%
+ 
+ 
+
+00:28:48.799 --> 00:28:49.830 align:start position:0%
+ 
+
+
+00:28:49.830 --> 00:28:52.070 align:start position:0%
+ 
+ 
+
+00:28:52.070 --> 00:28:52.080 align:start position:0%
+ 
+ 
+
+00:28:52.080 --> 00:28:54.070 align:start position:0%
+ 
+
+
+00:28:54.070 --> 00:28:57.430 align:start position:0%
+ 
+ 
+
+00:28:57.430 --> 00:29:01.350 align:start position:0%
+ 
+ 
+
+00:29:01.350 --> 00:29:03.350 align:start position:0%
+ 
+ 
+
+00:29:03.350 --> 00:29:07.830 align:start position:0%
+ 
+ 
+
+00:29:07.830 --> 00:29:10.230 align:start position:0%
+ 
+ 
+
+00:29:10.230 --> 00:29:13.310 align:start position:0%
+ 
+ 
+
+00:29:13.310 --> 00:29:13.320 align:start position:0%
+ 
+ 
+
+00:29:13.320 --> 00:29:15.269 align:start position:0%
+ 
+
+
+00:29:15.269 --> 00:29:19.269 align:start position:0%
+ 
+ 
+
+00:29:19.269 --> 00:29:19.279 align:start position:0%
+ 
+ 
+
+00:29:19.279 --> 00:29:20.149 align:start position:0%
+ 
+
+
+00:29:20.149 --> 00:29:23.269 align:start position:0%
+ 
+ 
+
+00:29:23.269 --> 00:29:25.909 align:start position:0%
+ 
+ 
+
+00:29:25.909 --> 00:29:27.190 align:start position:0%
+ 
+ 
+
+00:29:27.190 --> 00:29:30.070 align:start position:0%
+ 
+ 
+
+00:29:30.070 --> 00:29:32.230 align:start position:0%
+ 
+ 
+
+00:29:32.230 --> 00:29:35.750 align:start position:0%
+ 
+ 
+
+00:29:35.750 --> 00:29:37.029 align:start position:0%
+ 
+ 
+
+00:29:37.029 --> 00:29:38.950 align:start position:0%
+ 
+ 
+
+00:29:38.950 --> 00:29:41.990 align:start position:0%
+ 
+ 
+
+00:29:41.990 --> 00:29:44.630 align:start position:0%
+ 
+ 
+
+00:29:44.630 --> 00:29:44.640 align:start position:0%
+ 
+ 
+
+00:29:44.640 --> 00:29:49.830 align:start position:0%
+ 
+
+
+00:29:49.830 --> 00:29:51.590 align:start position:0%
+ 
+ 
+
+00:29:51.590 --> 00:29:54.549 align:start position:0%
+ 
+ 
+
+00:29:54.549 --> 00:29:56.710 align:start position:0%
+ 
+ 
+
+00:29:56.710 --> 00:29:56.720 align:start position:0%
+ 
+ 
+
+00:29:56.720 --> 00:29:59.830 align:start position:0%
+ 
+
+
+00:29:59.830 --> 00:29:59.840 align:start position:0%
+ 
+ 
+
+00:29:59.840 --> 00:30:00.630 align:start position:0%
+ 
+
+
+00:30:00.630 --> 00:30:03.510 align:start position:0%
+ 
+ 
+
+00:30:03.510 --> 00:30:05.830 align:start position:0%
+ 
+ 
+
+00:30:05.830 --> 00:30:08.389 align:start position:0%
+ 
+ 
+
+00:30:08.389 --> 00:30:10.710 align:start position:0%
+ 
+ 
+
+00:30:10.710 --> 00:30:14.310 align:start position:0%
+ 
+ 
+
+00:30:14.310 --> 00:30:17.590 align:start position:0%
+ 
+ 
+
+00:30:17.590 --> 00:30:22.389 align:start position:0%
+ 
+ 
+
+00:30:22.389 --> 00:30:24.549 align:start position:0%
+ 
+ 
+
+00:30:24.549 --> 00:30:25.669 align:start position:0%
+ 
+ 
+
+00:30:25.669 --> 00:30:27.909 align:start position:0%
+ 
+ 
+
+00:30:27.909 --> 00:30:31.190 align:start position:0%
+ 
+ 
+
+00:30:31.190 --> 00:30:33.750 align:start position:0%
+ 
+ 
+
+00:30:33.750 --> 00:30:36.789 align:start position:0%
+ 
+ 
+
+00:30:36.789 --> 00:30:39.830 align:start position:0%
+ 
+ 
+
+00:30:39.830 --> 00:30:41.510 align:start position:0%
+ 
+ 
+
+00:30:41.510 --> 00:30:43.190 align:start position:0%
+ 
+ 
+
+00:30:43.190 --> 00:30:45.269 align:start position:0%
+ 
+ 
+
+00:30:45.269 --> 00:30:47.430 align:start position:0%
+ 
+ 
+
+00:30:47.430 --> 00:30:49.269 align:start position:0%
+ 
+ 
+
+00:30:49.269 --> 00:30:53.110 align:start position:0%
+ 
+ 
+
+00:30:53.110 --> 00:30:56.230 align:start position:0%
+ 
+ 
+
+00:30:56.230 --> 00:31:00.230 align:start position:0%
+ 
+ 
+
+00:31:00.230 --> 00:31:02.389 align:start position:0%
+ 
+ 
+
+00:31:02.389 --> 00:31:06.149 align:start position:0%
+ 
+ 
+
+00:31:06.149 --> 00:31:09.830 align:start position:0%
+ 
+ 
+
+00:31:09.830 --> 00:31:12.149 align:start position:0%
+ 
+ 
+
+00:31:12.149 --> 00:31:12.159 align:start position:0%
+ 
+ 
+
+00:31:12.159 --> 00:31:13.350 align:start position:0%
+ 
+
+
+00:31:13.350 --> 00:31:15.430 align:start position:0%
+ 
+ 
+
+00:31:15.430 --> 00:31:17.750 align:start position:0%
+ 
+ 
+
+00:31:17.750 --> 00:31:21.590 align:start position:0%
+ 
+ 
+
+00:31:21.590 --> 00:31:24.230 align:start position:0%
+ 
+ 
+
+00:31:24.230 --> 00:31:24.240 align:start position:0%
+ 
+ 
+
+00:31:24.240 --> 00:31:27.029 align:start position:0%
+ 
+
+
+00:31:27.029 --> 00:31:27.039 align:start position:0%
+ 
+ 
+
+00:31:27.039 --> 00:31:29.110 align:start position:0%
+ 
+
+
+00:31:29.110 --> 00:31:31.029 align:start position:0%
+ 
+ 
+
+00:31:31.029 --> 00:31:36.470 align:start position:0%
+ 
+ 
+
+00:31:36.470 --> 00:31:38.630 align:start position:0%
+ 
+ 
+
+00:31:38.630 --> 00:31:42.470 align:start position:0%
+ 
+ 
+
+00:31:42.470 --> 00:31:45.909 align:start position:0%
+ 
+ 
+
+00:31:45.909 --> 00:31:45.919 align:start position:0%
+ 
+ 
+
+00:31:45.919 --> 00:31:49.029 align:start position:0%
+ 
+
+
+00:31:49.029 --> 00:31:52.389 align:start position:0%
+ 
+ 
+
+00:31:52.389 --> 00:31:55.509 align:start position:0%
+ 
+ 
+
+00:31:55.509 --> 00:31:58.789 align:start position:0%
+ 
+ 
+
+00:31:58.789 --> 00:32:00.470 align:start position:0%
+ 
+ 
+
+00:32:00.470 --> 00:32:00.480 align:start position:0%
+ 
+ 
+
+00:32:00.480 --> 00:32:03.190 align:start position:0%
+ 
+
+
+00:32:03.190 --> 00:32:05.830 align:start position:0%
+ 
+ 
+
+00:32:05.830 --> 00:32:09.990 align:start position:0%
+ 
+ 
+
+00:32:09.990 --> 00:32:10.000 align:start position:0%
+ 
+ 
+
+00:32:10.000 --> 00:32:10.950 align:start position:0%
+ 
+
+
+00:32:10.950 --> 00:32:14.549 align:start position:0%
+ 
+ 
+
+00:32:14.549 --> 00:32:14.559 align:start position:0%
+ 
+ 
+
+00:32:14.559 --> 00:32:15.590 align:start position:0%
+ 
+
+
+00:32:15.590 --> 00:32:18.630 align:start position:0%
+ 
+ 
+
+00:32:18.630 --> 00:32:20.389 align:start position:0%
+ 
+ 
+
+00:32:20.389 --> 00:32:25.590 align:start position:0%
+ 
+ 
+
+00:32:25.590 --> 00:32:28.230 align:start position:0%
+ 
+ 
+
+00:32:28.230 --> 00:32:30.950 align:start position:0%
+ 
+ 
+
+00:32:30.950 --> 00:32:34.470 align:start position:0%
+ 
+ 
+
+00:32:34.470 --> 00:32:35.909 align:start position:0%
+ 
+ 
+
+00:32:35.909 --> 00:32:38.630 align:start position:0%
+ 
+ 
+
+00:32:38.630 --> 00:32:40.789 align:start position:0%
+ 
+ 
+
+00:32:40.789 --> 00:32:43.350 align:start position:0%
+ 
+ 
+
+00:32:43.350 --> 00:32:46.789 align:start position:0%
+ 
+ 
+
+00:32:46.789 --> 00:32:46.799 align:start position:0%
+ 
+ 
+
+00:32:46.799 --> 00:32:49.590 align:start position:0%
+ 
+
+
+00:32:49.590 --> 00:32:54.950 align:start position:0%
+ 
+ 
+
+00:32:54.950 --> 00:32:56.870 align:start position:0%
+ 
+ 
+
+00:32:56.870 --> 00:32:56.880 align:start position:0%
+ 
+ 
+
+00:32:56.880 --> 00:32:57.669 align:start position:0%
+ 
+
+
+00:32:57.669 --> 00:32:57.679 align:start position:0%
+ 
+ 
+
+00:32:57.679 --> 00:32:58.950 align:start position:0%
+ 
+
+
+00:32:58.950 --> 00:33:01.830 align:start position:0%
+ 
+ 
+
+00:33:01.830 --> 00:33:03.830 align:start position:0%
+ 
+ 
+
+00:33:03.830 --> 00:33:06.230 align:start position:0%
+ 
+ 
+
+00:33:06.230 --> 00:33:10.470 align:start position:0%
+ 
+ 
+
+00:33:10.470 --> 00:33:12.870 align:start position:0%
+ 
+ 
+
+00:33:12.870 --> 00:33:14.070 align:start position:0%
+ 
+ 
+
+00:33:14.070 --> 00:33:14.080 align:start position:0%
+ 
+ 
+
+00:33:14.080 --> 00:33:16.149 align:start position:0%
+ 
+
+
+00:33:16.149 --> 00:33:18.149 align:start position:0%
+ 
+ 
+
+00:33:18.149 --> 00:33:20.789 align:start position:0%
+ 
+ 
+
+00:33:20.789 --> 00:33:25.190 align:start position:0%
+ 
+ 
+
+00:33:25.190 --> 00:33:27.110 align:start position:0%
+ 
+ 
+
+00:33:27.110 --> 00:33:28.789 align:start position:0%
+ 
+ 
+
+00:33:28.789 --> 00:33:31.110 align:start position:0%
+ 
+ 
+
+00:33:31.110 --> 00:33:31.120 align:start position:0%
+ 
+ 
+
+00:33:31.120 --> 00:33:33.350 align:start position:0%
+ 
+
+
+00:33:33.350 --> 00:33:36.070 align:start position:0%
+ 
+ 
+
+00:33:36.070 --> 00:33:40.149 align:start position:0%
+ 
+ 
+
+00:33:40.149 --> 00:33:43.990 align:start position:0%
+ 
+ 
+
+00:33:43.990 --> 00:33:47.669 align:start position:0%
+ 
+ 
+
+00:33:47.669 --> 00:33:50.830 align:start position:0%
+ 
+ 
+
+00:33:50.830 --> 00:33:53.590 align:start position:0%
+ 
+ 
+
+00:33:53.590 --> 00:33:53.600 align:start position:0%
+ 
+ 
+
+00:33:53.600 --> 00:33:54.630 align:start position:0%
+ 
+
+
+00:33:54.630 --> 00:33:54.640 align:start position:0%
+ 
+ 
+
+00:33:54.640 --> 00:33:56.549 align:start position:0%
+ 
+
+
+00:33:56.549 --> 00:33:59.909 align:start position:0%
+ 
+ 
+
+00:33:59.909 --> 00:33:59.919 align:start position:0%
+ 
+ 
+
+00:33:59.919 --> 00:34:01.110 align:start position:0%
+ 
+
+
+00:34:01.110 --> 00:34:05.269 align:start position:0%
+ 
+ 
+
+00:34:05.269 --> 00:34:06.389 align:start position:0%
+ 
+ 
+
+00:34:06.389 --> 00:34:06.399 align:start position:0%
+ 
+ 
+
+00:34:06.399 --> 00:34:07.509 align:start position:0%
+ 
+
+
+00:34:07.509 --> 00:34:09.270 align:start position:0%
+ 
+ 
+
+00:34:09.270 --> 00:34:09.280 align:start position:0%
+ 
+ 
+
+00:34:09.280 --> 00:34:10.470 align:start position:0%
+ 
+
+
+00:34:10.470 --> 00:34:14.790 align:start position:0%
+ 
+ 
+
+00:34:14.790 --> 00:34:17.750 align:start position:0%
+ 
+ 
+
+00:34:17.750 --> 00:34:25.109 align:start position:0%
+ 
+ 
+
+00:34:25.109 --> 00:34:27.750 align:start position:0%
+ 
+ 
+
+00:34:27.750 --> 00:34:30.710 align:start position:0%
+ 
+ 
+
+00:34:30.710 --> 00:34:34.069 align:start position:0%
+ 
+ 
+
+00:34:34.069 --> 00:34:38.310 align:start position:0%
+ 
+ 
+
+00:34:38.310 --> 00:34:41.109 align:start position:0%
+ 
+ 
+
+00:34:41.109 --> 00:34:44.470 align:start position:0%
+ 
+ 
+
+00:34:44.470 --> 00:34:44.480 align:start position:0%
+ 
+ 
+
+00:34:44.480 --> 00:34:45.750 align:start position:0%
+ 
+
+
+00:34:45.750 --> 00:34:49.589 align:start position:0%
+ 
+ 
+
+00:34:49.589 --> 00:34:51.829 align:start position:0%
+ 
+ 
+
+00:34:51.829 --> 00:34:55.349 align:start position:0%
+ 
+ 
+
+00:34:55.349 --> 00:34:58.550 align:start position:0%
+ 
+ 
+
+00:34:58.550 --> 00:35:07.510 align:start position:0%
+ 
+ 
+
+00:35:07.510 --> 00:35:07.520 align:start position:0%
+ 
+ 
+
+00:35:07.520 --> 00:35:09.430 align:start position:0%
+ 
+
+
+00:35:09.430 --> 00:35:11.910 align:start position:0%
+ 
+ 
+
+00:35:11.910 --> 00:35:14.790 align:start position:0%
+ 
+ 
+
+00:35:14.790 --> 00:35:16.950 align:start position:0%
+ 
+ 
+
+00:35:16.950 --> 00:35:19.030 align:start position:0%
+ 
+ 
+
+00:35:19.030 --> 00:35:21.670 align:start position:0%
+ 
+ 
+
+00:35:21.670 --> 00:35:21.680 align:start position:0%
+ 
+ 
+
+00:35:21.680 --> 00:35:22.790 align:start position:0%
+ 
+
+
+00:35:22.790 --> 00:35:25.109 align:start position:0%
+ 
+ 
+
+00:35:25.109 --> 00:35:31.430 align:start position:0%
+ 
+ 
+
+00:35:31.430 --> 00:35:33.670 align:start position:0%
+ 
+ 
+
+00:35:33.670 --> 00:35:36.310 align:start position:0%
+ 
+ 
+
+00:35:36.310 --> 00:35:39.670 align:start position:0%
+ 
+ 
+
+00:35:39.670 --> 00:35:39.680 align:start position:0%
+ 
+ 
+
+00:35:39.680 --> 00:35:43.190 align:start position:0%
+ 
+
+
+00:35:43.190 --> 00:35:45.750 align:start position:0%
+ 
+ 
+
+00:35:45.750 --> 00:35:51.510 align:start position:0%
+ 
+ 
+
+00:35:51.510 --> 00:35:53.990 align:start position:0%
+ 
+ 
+
+00:35:53.990 --> 00:35:56.790 align:start position:0%
+ 
+ 
+
+00:35:56.790 --> 00:35:56.800 align:start position:0%
+ 
+ 
+
+00:35:56.800 --> 00:35:58.630 align:start position:0%
+ 
+
+
+00:35:58.630 --> 00:36:01.510 align:start position:0%
+ 
+ 
+
+00:36:01.510 --> 00:36:03.589 align:start position:0%
+ 
+ 
+
+00:36:03.589 --> 00:36:06.390 align:start position:0%
+ 
+ 
+
+00:36:06.390 --> 00:36:08.790 align:start position:0%
+ 
+ 
+
+00:36:08.790 --> 00:36:11.190 align:start position:0%
+ 
+ 
+
+00:36:11.190 --> 00:36:13.589 align:start position:0%
+ 
+ 
+
+00:36:13.589 --> 00:36:18.310 align:start position:0%
+ 
+ 
+
+00:36:18.310 --> 00:36:20.870 align:start position:0%
+ 
+ 
+
+00:36:20.870 --> 00:36:22.230 align:start position:0%
+ 
+ 
+
+00:36:22.230 --> 00:36:23.750 align:start position:0%
+ 
+ 
+
+00:36:23.750 --> 00:36:23.760 align:start position:0%
+ 
+ 
+
+00:36:23.760 --> 00:36:28.310 align:start position:0%
+ 
+
+
+00:36:28.310 --> 00:36:31.190 align:start position:0%
+ 
+ 
+
+00:36:31.190 --> 00:36:33.270 align:start position:0%
+ 
+ 
+
+00:36:33.270 --> 00:36:35.349 align:start position:0%
+ 
+ 
+
+00:36:35.349 --> 00:36:36.630 align:start position:0%
+ 
+ 
+
+00:36:36.630 --> 00:36:39.030 align:start position:0%
+ 
+ 
+
+00:36:39.030 --> 00:36:41.670 align:start position:0%
+ 
+ 
+
+00:36:41.670 --> 00:36:45.190 align:start position:0%
+ 
+ 
+
+00:36:45.190 --> 00:36:47.109 align:start position:0%
+ 
+ 
+
+00:36:47.109 --> 00:36:49.190 align:start position:0%
+ 
+ 
+
+00:36:49.190 --> 00:36:52.710 align:start position:0%
+ 
+ 
+
+00:36:52.710 --> 00:36:56.550 align:start position:0%
+ 
+ 
+
+00:36:56.550 --> 00:37:00.069 align:start position:0%
+ 
+ 
+
+00:37:00.069 --> 00:37:06.950 align:start position:0%
+ 
+ 
+
+00:37:06.950 --> 00:37:08.870 align:start position:0%
+ 
+ 
+
+00:37:08.870 --> 00:37:11.109 align:start position:0%
+ 
+ 
+
+00:37:11.109 --> 00:37:14.230 align:start position:0%
+ 
+ 
+
+00:37:14.230 --> 00:37:15.589 align:start position:0%
+ 
+ 
+
+00:37:15.589 --> 00:37:17.910 align:start position:0%
+ 
+ 
+
+00:37:17.910 --> 00:37:21.589 align:start position:0%
+ 
+ 
+
+00:37:21.589 --> 00:37:36.230 align:start position:0%
+ 
+ 
+
+00:37:36.230 --> 00:37:39.270 align:start position:0%
+ 
+ 
+
+00:37:39.270 --> 00:37:41.589 align:start position:0%
+ 
+ 
+
+00:37:41.589 --> 00:37:43.910 align:start position:0%
+ 
+ 
+
+00:37:43.910 --> 00:37:43.920 align:start position:0%
+ 
+ 
+
+00:37:43.920 --> 00:37:45.349 align:start position:0%
+ 
+
+
+00:37:45.349 --> 00:37:47.190 align:start position:0%
+ 
+ 
+
+00:37:47.190 --> 00:37:48.870 align:start position:0%
+ 
+ 
+
+00:37:48.870 --> 00:37:51.510 align:start position:0%
+ 
+ 
+
+00:37:51.510 --> 00:37:51.520 align:start position:0%
+ 
+ 
+
+00:37:51.520 --> 00:37:53.030 align:start position:0%
+ 
+
+
+00:37:53.030 --> 00:37:56.230 align:start position:0%
+ 
+ 
+
+00:37:56.230 --> 00:37:58.950 align:start position:0%
+ 
+ 
+
+00:37:58.950 --> 00:37:59.990 align:start position:0%
+ 
+ 
+
+00:37:59.990 --> 00:38:01.990 align:start position:0%
+ 
+ 
+
+00:38:01.990 --> 00:38:04.390 align:start position:0%
+ 
+ 
+
+00:38:04.390 --> 00:38:06.550 align:start position:0%
+ 
+ 
+
+00:38:06.550 --> 00:38:09.430 align:start position:0%
+ 
+ 
+
+00:38:09.430 --> 00:38:12.550 align:start position:0%
+ 
+ 
+
+00:38:12.550 --> 00:38:15.349 align:start position:0%
+ 
+ 
+
+00:38:15.349 --> 00:38:17.910 align:start position:0%
+ 
+ 
+
+00:38:17.910 --> 00:38:20.150 align:start position:0%
+ 
+ 
+
+00:38:20.150 --> 00:38:21.750 align:start position:0%
+ 
+ 
+
+00:38:21.750 --> 00:38:24.950 align:start position:0%
+ 
+ 
+
+00:38:24.950 --> 00:38:30.470 align:start position:0%
+ 
+ 
+
+00:38:30.470 --> 00:38:34.069 align:start position:0%
+ 
+ 
+
+00:38:34.069 --> 00:38:35.430 align:start position:0%
+ 
+ 
+
+00:38:35.430 --> 00:38:38.870 align:start position:0%
+ 
+ 
+
+00:38:38.870 --> 00:38:42.230 align:start position:0%
+ 
+ 
+
+00:38:42.230 --> 00:38:44.310 align:start position:0%
+ 
+ 
+
+00:38:44.310 --> 00:38:47.109 align:start position:0%
+ 
+ 
+
+00:38:47.109 --> 00:38:49.670 align:start position:0%
+ 
+ 
+
+00:38:49.670 --> 00:38:54.470 align:start position:0%
+ 
+ 
+
+00:38:54.470 --> 00:38:57.430 align:start position:0%
+ 
+ 
+
+00:38:57.430 --> 00:39:00.790 align:start position:0%
+ 
+ 
+
+00:39:00.790 --> 00:39:04.150 align:start position:0%
+ 
+ 
+
+00:39:04.150 --> 00:39:06.069 align:start position:0%
+ 
+ 
+
+00:39:06.069 --> 00:39:09.670 align:start position:0%
+ 
+ 
+
+00:39:09.670 --> 00:39:11.109 align:start position:0%
+ 
+ 
+
+00:39:11.109 --> 00:39:16.470 align:start position:0%
+ 
+ 
+
+00:39:16.470 --> 00:39:16.480 align:start position:0%
+ 
+ 
+
+00:39:16.480 --> 00:39:18.230 align:start position:0%
+ 
+
+
+00:39:18.230 --> 00:39:21.430 align:start position:0%
+ 
+ 
+
+00:39:21.430 --> 00:39:22.870 align:start position:0%
+ 
+ 
+
+00:39:22.870 --> 00:39:22.880 align:start position:0%
+ 
+ 
+
+00:39:22.880 --> 00:39:24.310 align:start position:0%
+ 
+
+
+00:39:24.310 --> 00:39:24.320 align:start position:0%
+ 
+ 
+
+00:39:24.320 --> 00:39:25.349 align:start position:0%
+ 
+
+
+00:39:25.349 --> 00:39:29.670 align:start position:0%
+ 
+ 
+
+00:39:29.670 --> 00:39:31.109 align:start position:0%
+ 
+ 
+
+00:39:31.109 --> 00:39:33.829 align:start position:0%
+ 
+ 
+
+00:39:33.829 --> 00:39:37.109 align:start position:0%
+ 
+ 
+
+00:39:37.109 --> 00:39:42.390 align:start position:0%
+ 
+ 
+
+00:39:42.390 --> 00:39:45.349 align:start position:0%
+ 
+ 
+
+00:39:45.349 --> 00:39:48.550 align:start position:0%
+ 
+ 
+
+00:39:48.550 --> 00:39:51.190 align:start position:0%
+ 
+ 
+
+00:39:51.190 --> 00:39:53.430 align:start position:0%
+ 
+ 
+
+00:39:53.430 --> 00:39:56.870 align:start position:0%
+ 
+ 
+
+00:39:56.870 --> 00:39:59.670 align:start position:0%
+ 
+ 
+
+00:39:59.670 --> 00:39:59.680 align:start position:0%
+ 
+ 
+
+00:39:59.680 --> 00:40:00.390 align:start position:0%
+ 
+
+
+00:40:00.390 --> 00:40:03.510 align:start position:0%
+ 
+ 
+
+00:40:03.510 --> 00:40:06.550 align:start position:0%
+ 
+ 
+
+00:40:06.550 --> 00:40:08.309 align:start position:0%
+ 
+ 
+
+00:40:08.309 --> 00:40:14.870 align:start position:0%
+ 
+ 
+
+00:40:14.870 --> 00:40:17.670 align:start position:0%
+ 
+ 
+
+00:40:17.670 --> 00:40:17.680 align:start position:0%
+ 
+ 
+
+00:40:17.680 --> 00:40:19.109 align:start position:0%
+ 
+
+
+00:40:19.109 --> 00:40:21.030 align:start position:0%
+ 
+ 
+
+00:40:21.030 --> 00:40:23.270 align:start position:0%
+ 
+ 
+
+00:40:23.270 --> 00:40:24.710 align:start position:0%
+ 
+ 
+
+00:40:24.710 --> 00:40:27.910 align:start position:0%
+ 
+ 
+
+00:40:27.910 --> 00:40:30.309 align:start position:0%
+ 
+ 
+
+00:40:30.309 --> 00:40:32.309 align:start position:0%
+ 
+ 
+
+00:40:32.309 --> 00:40:36.230 align:start position:0%
+ 
+ 
+
+00:40:36.230 --> 00:40:39.750 align:start position:0%
+ 
+ 
+
+00:40:39.750 --> 00:40:42.790 align:start position:0%
+ 
+ 
+
+00:40:42.790 --> 00:40:45.589 align:start position:0%
+ 
+ 
+
+00:40:45.589 --> 00:40:46.790 align:start position:0%
+ 
+ 
+
+00:40:46.790 --> 00:40:50.069 align:start position:0%
+ 
+ 
+
+00:40:50.069 --> 00:40:52.630 align:start position:0%
+ 
+ 
+
+00:40:52.630 --> 00:40:55.910 align:start position:0%
+ 
+ 
+
+00:40:55.910 --> 00:40:59.349 align:start position:0%
+ 
+ 
+
+00:40:59.349 --> 00:41:02.309 align:start position:0%
+ 
+ 
+
+00:41:02.309 --> 00:41:02.319 align:start position:0%
+ 
+ 
+
+00:41:02.319 --> 00:41:05.030 align:start position:0%
+ 
+
+
+00:41:05.030 --> 00:41:06.950 align:start position:0%
+ 
+ 
+
+00:41:06.950 --> 00:41:10.150 align:start position:0%
+ 
+ 
+
+00:41:10.150 --> 00:41:12.390 align:start position:0%
+ 
+ 
+
+00:41:12.390 --> 00:41:12.400 align:start position:0%
+ 
+ 
+
+00:41:12.400 --> 00:41:14.710 align:start position:0%
+ 
+
+
+00:41:14.710 --> 00:41:17.670 align:start position:0%
+ 
+ 
+
+00:41:17.670 --> 00:41:20.870 align:start position:0%
+ 
+ 
+
+00:41:20.870 --> 00:41:23.430 align:start position:0%
+ 
+ 
+
+00:41:23.430 --> 00:41:26.870 align:start position:0%
+ 
+ 
+
+00:41:26.870 --> 00:41:26.880 align:start position:0%
+ 
+ 
+
+00:41:26.880 --> 00:41:29.910 align:start position:0%
+ 
+
+
+00:41:29.910 --> 00:41:32.230 align:start position:0%
+ 
+ 
+
+00:41:32.230 --> 00:41:33.750 align:start position:0%
+ 
+ 
+
+00:41:33.750 --> 00:41:37.109 align:start position:0%
+ 
+ 
+
+00:41:37.109 --> 00:41:39.589 align:start position:0%
+ 
+ 
+
+00:41:39.589 --> 00:41:42.470 align:start position:0%
+ 
+ 
+
+00:41:42.470 --> 00:41:42.480 align:start position:0%
+ 
+ 
+
+00:41:42.480 --> 00:41:43.430 align:start position:0%
+ 
+
+
+00:41:43.430 --> 00:41:43.440 align:start position:0%
+ 
+ 
+
+00:41:43.440 --> 00:41:45.750 align:start position:0%
+ 
+
+
+00:41:45.750 --> 00:41:47.990 align:start position:0%
+ 
+ 
+
+00:41:47.990 --> 00:41:48.000 align:start position:0%
+ 
+ 
+
+00:41:48.000 --> 00:41:48.870 align:start position:0%
+ 
+
+
+00:41:48.870 --> 00:41:50.470 align:start position:0%
+ 
+ 
+
+00:41:50.470 --> 00:41:52.950 align:start position:0%
+ 
+ 
+
+00:41:52.950 --> 00:41:56.309 align:start position:0%
+ 
+ 
+
+00:41:56.309 --> 00:42:01.109 align:start position:0%
+ 
+ 
+
+00:42:01.109 --> 00:42:01.119 align:start position:0%
+ 
+ 
+
+00:42:01.119 --> 00:42:03.030 align:start position:0%
+ 
+
+
+00:42:03.030 --> 00:42:05.109 align:start position:0%
+ 
+ 
+
+00:42:05.109 --> 00:42:08.309 align:start position:0%
+ 
+ 
+
+00:42:08.309 --> 00:42:10.950 align:start position:0%
+ 
+ 
+
+00:42:10.950 --> 00:42:13.589 align:start position:0%
+ 
+ 
+
+00:42:13.589 --> 00:42:16.470 align:start position:0%
+ 
+ 
+
+00:42:16.470 --> 00:42:16.480 align:start position:0%
+ 
+ 
+
+00:42:16.480 --> 00:42:18.069 align:start position:0%
+ 
+
+
+00:42:18.069 --> 00:42:20.150 align:start position:0%
+ 
+ 
+
+00:42:20.150 --> 00:42:20.160 align:start position:0%
+ 
+ 
+
+00:42:20.160 --> 00:42:21.829 align:start position:0%
+ 
+
+
+00:42:21.829 --> 00:42:23.910 align:start position:0%
+ 
+ 
+
+00:42:23.910 --> 00:42:26.950 align:start position:0%
+ 
+ 
+
+00:42:26.950 --> 00:42:28.069 align:start position:0%
+ 
+ 
+
+00:42:28.069 --> 00:42:30.630 align:start position:0%
+ 
+ 
+
+00:42:30.630 --> 00:42:32.550 align:start position:0%
+ 
+ 
+
+00:42:32.550 --> 00:42:35.430 align:start position:0%
+ 
+ 
+
+00:42:35.430 --> 00:42:40.150 align:start position:0%
+ 
+ 
+
+00:42:40.150 --> 00:42:40.160 align:start position:0%
+ 
+ 
+
+00:42:40.160 --> 00:42:41.430 align:start position:0%
+ 
+
+
+00:42:41.430 --> 00:42:44.309 align:start position:0%
+ 
+ 
+
+00:42:44.309 --> 00:42:48.309 align:start position:0%
+ 
+ 
+
+00:42:48.309 --> 00:42:49.670 align:start position:0%
+ 
+ 
+
+00:42:49.670 --> 00:42:51.349 align:start position:0%
+ 
+ 
+
+00:42:51.349 --> 00:42:51.359 align:start position:0%
+ 
+ 
+
+00:42:51.359 --> 00:42:53.349 align:start position:0%
+ 
+
+
+00:42:53.349 --> 00:42:56.790 align:start position:0%
+ 
+ 
+
+00:42:56.790 --> 00:42:59.109 align:start position:0%
+ 
+ 
+
+00:42:59.109 --> 00:43:02.309 align:start position:0%
+ 
+ 
+
+00:43:02.309 --> 00:43:06.390 align:start position:0%
+ 
+ 
+
+00:43:06.390 --> 00:43:08.870 align:start position:0%
+ 
+ 
+
+00:43:08.870 --> 00:43:13.589 align:start position:0%
+ 
+ 
+
+00:43:13.589 --> 00:43:16.710 align:start position:0%
+ 
+ 
+
+00:43:16.710 --> 00:43:19.349 align:start position:0%
+ 
+ 
+
+00:43:19.349 --> 00:43:19.359 align:start position:0%
+ 
+ 
+
+00:43:19.359 --> 00:43:21.349 align:start position:0%
+ 
+
+
+00:43:21.349 --> 00:43:23.349 align:start position:0%
+ 
+ 
+
+00:43:23.349 --> 00:43:28.309 align:start position:0%
+ 
+ 
+
+00:43:28.309 --> 00:43:28.319 align:start position:0%
+ 
+ 
+
+00:43:28.319 --> 00:43:29.030 align:start position:0%
+ 
+
+
+00:43:29.030 --> 00:43:30.870 align:start position:0%
+ 
+ 
+
+00:43:30.870 --> 00:43:33.910 align:start position:0%
+ 
+ 
+
+00:43:33.910 --> 00:43:37.750 align:start position:0%
+ 
+ 
+
+00:43:37.750 --> 00:43:39.510 align:start position:0%
+ 
+ 
+
+00:43:39.510 --> 00:43:39.520 align:start position:0%
+ 
+ 
+
+00:43:39.520 --> 00:43:44.870 align:start position:0%
+ 
+
+
+00:43:44.870 --> 00:43:48.150 align:start position:0%
+ 
+ 
+
+00:43:48.150 --> 00:43:50.309 align:start position:0%
+ 
+ 
+
+00:43:50.309 --> 00:43:50.319 align:start position:0%
+ 
+ 
+
+00:43:50.319 --> 00:43:51.270 align:start position:0%
+ 
+
+
+00:43:51.270 --> 00:43:53.430 align:start position:0%
+ 
+ 
+
+00:43:53.430 --> 00:43:56.950 align:start position:0%
+ 
+ 
+
+00:43:56.950 --> 00:43:59.230 align:start position:0%
+ 
+ 
+
+00:43:59.230 --> 00:44:02.150 align:start position:0%
+ 
+ 
+
+00:44:02.150 --> 00:44:06.950 align:start position:0%
+ 
+ 
+
+00:44:06.950 --> 00:44:12.150 align:start position:0%
+ 
+ 
+
+00:44:12.150 --> 00:44:13.990 align:start position:0%
+ 
+ 
+
+00:44:13.990 --> 00:44:14.000 align:start position:0%
+ 
+ 
+
+00:44:14.000 --> 00:44:15.589 align:start position:0%
+ 
+
+
+00:44:15.589 --> 00:44:20.309 align:start position:0%
+ 
+ 
+
+00:44:20.309 --> 00:44:25.430 align:start position:0%
+ 
+ 
+
+00:44:25.430 --> 00:44:27.589 align:start position:0%
+ 
+ 
+
+00:44:27.589 --> 00:44:29.349 align:start position:0%
+ 
+ 
+
+00:44:29.349 --> 00:44:31.589 align:start position:0%
+ 
+ 
+
+00:44:31.589 --> 00:44:33.990 align:start position:0%
+ 
+ 
+
+00:44:33.990 --> 00:44:35.990 align:start position:0%
+ 
+ 
+
+00:44:35.990 --> 00:44:38.390 align:start position:0%
+ 
+ 
+
+00:44:38.390 --> 00:44:38.400 align:start position:0%
+ 
+ 
+
+00:44:38.400 --> 00:44:40.309 align:start position:0%
+ 
+
+
+00:44:40.309 --> 00:44:40.319 align:start position:0%
+ 
+ 
+
+00:44:40.319 --> 00:44:41.190 align:start position:0%
+ 
+
+
+00:44:41.190 --> 00:44:43.349 align:start position:0%
+ 
+ 
+
+00:44:43.349 --> 00:44:45.750 align:start position:0%
+ 
+ 
+
+00:44:45.750 --> 00:44:47.829 align:start position:0%
+ 
+ 
+
+00:44:47.829 --> 00:44:51.349 align:start position:0%
+ 
+ 
+
+00:44:51.349 --> 00:44:54.550 align:start position:0%
+ 
+ 
+
+00:44:54.550 --> 00:44:56.790 align:start position:0%
+ 
+ 
+
+00:44:56.790 --> 00:44:56.800 align:start position:0%
+ 
+ 
+
+00:44:56.800 --> 00:44:57.589 align:start position:0%
+ 
+
+
+00:44:57.589 --> 00:45:00.630 align:start position:0%
+ 
+ 
+
+00:45:00.630 --> 00:45:03.349 align:start position:0%
+ 
+ 
+
+00:45:03.349 --> 00:45:06.710 align:start position:0%
+ 
+ 
+
+00:45:06.710 --> 00:45:08.790 align:start position:0%
+ 
+ 
+
+00:45:08.790 --> 00:45:10.630 align:start position:0%
+ 
+ 
+
+00:45:10.630 --> 00:45:12.870 align:start position:0%
+ 
+ 
+
+00:45:12.870 --> 00:45:15.750 align:start position:0%
+ 
+ 
+
+00:45:15.750 --> 00:45:15.760 align:start position:0%
+ 
+ 
+
+00:45:15.760 --> 00:45:16.829 align:start position:0%
+ 
+
+
+00:45:16.829 --> 00:45:16.839 align:start position:0%
+ 
+ 
+
+00:45:16.839 --> 00:45:18.710 align:start position:0%
+ 
+
+
+00:45:18.710 --> 00:45:24.470 align:start position:0%
+ 
+ 
+
+00:45:24.470 --> 00:45:29.589 align:start position:0%
+ 
+ 
+
+00:45:29.589 --> 00:45:29.599 align:start position:0%
+ 
+ 
+
+00:45:29.599 --> 00:45:33.589 align:start position:0%
+ 
+
+
+00:45:33.589 --> 00:45:36.150 align:start position:0%
+ 
+ 
+
+00:45:36.150 --> 00:45:38.390 align:start position:0%
+ 
+ 
+
+00:45:38.390 --> 00:45:40.550 align:start position:0%
+ 
+ 
+
+00:45:40.550 --> 00:45:43.910 align:start position:0%
+ 
+ 
+
+00:45:43.910 --> 00:45:43.920 align:start position:0%
+ 
+ 
+
+00:45:43.920 --> 00:45:46.790 align:start position:0%
+ 
+
+
+00:45:46.790 --> 00:45:49.190 align:start position:0%
+ 
+ 
+
+00:45:49.190 --> 00:45:51.589 align:start position:0%
+ 
+ 
+
+00:45:51.589 --> 00:45:51.599 align:start position:0%
+ 
+ 
+
+00:45:51.599 --> 00:45:52.390 align:start position:0%
+ 
+
+
+00:45:52.390 --> 00:45:54.790 align:start position:0%
+ 
+ 
+
+00:45:54.790 --> 00:45:56.710 align:start position:0%
+ 
+ 
+
+00:45:56.710 --> 00:45:59.430 align:start position:0%
+ 
+ 
+
+00:45:59.430 --> 00:46:02.150 align:start position:0%
+ 
+ 
+
+00:46:02.150 --> 00:46:05.190 align:start position:0%
+ 
+ 
+
+00:46:05.190 --> 00:46:06.309 align:start position:0%
+ 
+ 
+
+00:46:06.309 --> 00:46:11.990 align:start position:0%
+ 
+ 
+
+00:46:11.990 --> 00:46:14.790 align:start position:0%
+ 
+ 
+
+00:46:14.790 --> 00:46:16.309 align:start position:0%
+ 
+ 
+
+00:46:16.309 --> 00:46:19.750 align:start position:0%
+ 
+ 
+
+00:46:19.750 --> 00:46:21.910 align:start position:0%
+ 
+ 
+
+00:46:21.910 --> 00:46:23.670 align:start position:0%
+ 
+ 
+
+00:46:23.670 --> 00:46:25.510 align:start position:0%
+ 
+ 
+
+00:46:25.510 --> 00:46:27.750 align:start position:0%
+ 
+ 
+
+00:46:27.750 --> 00:46:31.109 align:start position:0%
+ 
+ 
+
+00:46:31.109 --> 00:46:33.349 align:start position:0%
+ 
+ 
+
+00:46:33.349 --> 00:46:35.670 align:start position:0%
+ 
+ 
+
+00:46:35.670 --> 00:46:37.910 align:start position:0%
+ 
+ 
+
+00:46:37.910 --> 00:46:37.920 align:start position:0%
+ 
+ 
+
+00:46:37.920 --> 00:46:39.349 align:start position:0%
+ 
+
+
+00:46:39.349 --> 00:46:39.359 align:start position:0%
+ 
+ 
+
+00:46:39.359 --> 00:46:40.150 align:start position:0%
+ 
+
+
+00:46:40.150 --> 00:46:42.630 align:start position:0%
+ 
+ 
+
+00:46:42.630 --> 00:46:46.150 align:start position:0%
+ 
+ 
+
+00:46:46.150 --> 00:46:46.160 align:start position:0%
+ 
+ 
+
+00:46:46.160 --> 00:46:48.630 align:start position:0%
+ 
+
+
+00:46:48.630 --> 00:46:50.950 align:start position:0%
+ 
+ 
+
+00:46:50.950 --> 00:46:53.109 align:start position:0%
+ 
+ 
+
+00:46:53.109 --> 00:46:57.910 align:start position:0%
+ 
+ 
+
+00:46:57.910 --> 00:47:01.270 align:start position:0%
+ 
+ 
+
+00:47:01.270 --> 00:47:02.630 align:start position:0%
+ 
+ 
+
+00:47:02.630 --> 00:47:04.790 align:start position:0%
+ 
+ 
+
+00:47:04.790 --> 00:47:07.190 align:start position:0%
+ 
+ 
+
+00:47:07.190 --> 00:47:09.990 align:start position:0%
+ 
+ 
+
+00:47:09.990 --> 00:47:14.550 align:start position:0%
+ 
+ 
+
+00:47:14.550 --> 00:47:17.670 align:start position:0%
+ 
+ 
+
+00:47:17.670 --> 00:47:21.510 align:start position:0%
+ 
+ 
+
+00:47:21.510 --> 00:47:23.670 align:start position:0%
+ 
+ 
+
+00:47:23.670 --> 00:47:23.680 align:start position:0%
+ 
+ 
+
+00:47:23.680 --> 00:47:24.790 align:start position:0%
+ 
+
+
+00:47:24.790 --> 00:47:27.910 align:start position:0%
+ 
+ 
+
+00:47:27.910 --> 00:47:30.710 align:start position:0%
+ 
+ 
+
+00:47:30.710 --> 00:47:33.109 align:start position:0%
+ 
+ 
+
+00:47:33.109 --> 00:47:37.750 align:start position:0%
+ 
+ 
+
+00:47:37.750 --> 00:47:40.950 align:start position:0%
+ 
+ 
+
+00:47:40.950 --> 00:47:40.960 align:start position:0%
+ 
+ 
+
+00:47:40.960 --> 00:47:43.670 align:start position:0%
+ 
+
+
+00:47:43.670 --> 00:47:46.790 align:start position:0%
+ 
+ 
+
+00:47:46.790 --> 00:47:48.230 align:start position:0%
+ 
+ 
+
+00:47:48.230 --> 00:47:51.750 align:start position:0%
+ 
+ 
+
+00:47:51.750 --> 00:47:54.630 align:start position:0%
+ 
+ 
+
+00:47:54.630 --> 00:47:57.990 align:start position:0%
+ 
+ 
+
+00:47:57.990 --> 00:48:00.150 align:start position:0%
+ 
+ 
+
+00:48:00.150 --> 00:48:03.349 align:start position:0%
+ 
+ 
+
+00:48:03.349 --> 00:48:06.790 align:start position:0%
+ 
+ 
+
+00:48:06.790 --> 00:48:09.109 align:start position:0%
+ 
+ 
+
+00:48:09.109 --> 00:48:11.240 align:start position:0%
+ 
+ 
+
+00:48:11.240 --> 00:48:11.250 align:start position:0%
+ 
+ 
+
+00:48:11.250 --> 00:48:12.549 align:start position:0%
+ 
+
+
+00:48:12.549 --> 00:48:16.150 align:start position:0%
+ 
+ 
+
+00:48:16.150 --> 00:48:20.069 align:start position:0%
+ 
+ 
+
+00:48:20.069 --> 00:48:21.670 align:start position:0%
+ 
+ 
+
+00:48:21.670 --> 00:48:23.910 align:start position:0%
+ 
+ 
+
+00:48:23.910 --> 00:48:26.630 align:start position:0%
+ 
+ 
+
+00:48:26.630 --> 00:48:28.790 align:start position:0%
+ 
+ 
+
+00:48:28.790 --> 00:48:32.470 align:start position:0%
+ 
+ 
+
+00:48:32.470 --> 00:48:34.710 align:start position:0%
+ 
+ 
+
+00:48:34.710 --> 00:48:37.510 align:start position:0%
+ 
+ 
+
+00:48:37.510 --> 00:48:40.790 align:start position:0%
+ 
+ 
+
+00:48:40.790 --> 00:48:43.190 align:start position:0%
+ 
+ 
+
+00:48:43.190 --> 00:48:45.589 align:start position:0%
+ 
+ 
+
+00:48:45.589 --> 00:48:45.599 align:start position:0%
+ 
+ 
+
+00:48:45.599 --> 00:48:48.230 align:start position:0%
+ 
+
+
+00:48:48.230 --> 00:48:51.270 align:start position:0%
+ 
+ 
+
+00:48:51.270 --> 00:48:56.630 align:start position:0%
+ 
+ 
+
+00:48:56.630 --> 00:48:58.950 align:start position:0%
+ 
+ 
+
+00:48:58.950 --> 00:49:00.870 align:start position:0%
+ 
+ 
+
+00:49:00.870 --> 00:49:04.309 align:start position:0%
+ 
+ 
+
+00:49:04.309 --> 00:49:05.670 align:start position:0%
+ 
+ 
+
+00:49:05.670 --> 00:49:08.230 align:start position:0%
+ 
+ 
+
+00:49:08.230 --> 00:49:11.430 align:start position:0%
+ 
+ 
+
+00:49:11.430 --> 00:49:15.589 align:start position:0%
+ 
+ 
+
+00:49:15.589 --> 00:49:17.670 align:start position:0%
+ 
+ 
+
+00:49:17.670 --> 00:49:20.630 align:start position:0%
+ 
+ 
+
+00:49:20.630 --> 00:49:22.710 align:start position:0%
+ 
+ 
+
+00:49:22.710 --> 00:49:25.030 align:start position:0%
+ 
+ 
+
+00:49:25.030 --> 00:49:27.670 align:start position:0%
+ 
+ 
+
+00:49:27.670 --> 00:49:30.950 align:start position:0%
+ 
+ 
+
+00:49:30.950 --> 00:49:35.109 align:start position:0%
+ 
+ 
+
+00:49:35.109 --> 00:49:35.119 align:start position:0%
+ 
+ 
+
+00:49:35.119 --> 00:49:36.630 align:start position:0%
+ 
+
+
+00:49:36.630 --> 00:49:36.640 align:start position:0%
+ 
+ 
+
+00:49:36.640 --> 00:49:37.750 align:start position:0%
+ 
+
+
+00:49:37.750 --> 00:49:41.670 align:start position:0%
+ 
+ 
+
+00:49:41.670 --> 00:49:44.790 align:start position:0%
+ 
+ 
+
+00:49:44.790 --> 00:49:49.270 align:start position:0%
+ 
+ 
+
+00:49:49.270 --> 00:49:51.990 align:start position:0%
+ 
+ 
+
+00:49:51.990 --> 00:49:57.270 align:start position:0%
+ 
+ 
+
+00:49:57.270 --> 00:50:01.829 align:start position:0%
+ 
+ 
+
+00:50:01.829 --> 00:50:03.670 align:start position:0%
+ 
+ 
+
+00:50:03.670 --> 00:50:03.680 align:start position:0%
+ 
+ 
+
+00:50:03.680 --> 00:50:06.069 align:start position:0%
+ 
+
+
+00:50:06.069 --> 00:50:09.270 align:start position:0%
+ 
+ 
+
+00:50:09.270 --> 00:50:12.950 align:start position:0%
+ 
+ 
+
+00:50:12.950 --> 00:50:15.910 align:start position:0%
+ 
+ 
+
+00:50:15.910 --> 00:50:19.589 align:start position:0%
+ 
+ 
+
+00:50:19.589 --> 00:50:21.750 align:start position:0%
+ 
+ 
+
+00:50:21.750 --> 00:50:26.630 align:start position:0%
+ 
+ 
+
+00:50:26.630 --> 00:50:28.230 align:start position:0%
+ 
+ 
+
+00:50:28.230 --> 00:50:28.240 align:start position:0%
+ 
+ 
+
+00:50:28.240 --> 00:50:29.030 align:start position:0%
+ 
+
+
+00:50:29.030 --> 00:50:29.040 align:start position:0%
+ 
+ 
+
+00:50:29.040 --> 00:50:30.870 align:start position:0%
+ 
+
+
+00:50:30.870 --> 00:50:33.030 align:start position:0%
+ 
+ 
+
+00:50:33.030 --> 00:50:35.910 align:start position:0%
+ 
+ 
+
+00:50:35.910 --> 00:50:38.150 align:start position:0%
+ 
+ 
+
+00:50:38.150 --> 00:50:42.230 align:start position:0%
+ 
+ 
+
+00:50:42.230 --> 00:50:43.670 align:start position:0%
+ 
+ 
+
+00:50:43.670 --> 00:50:45.430 align:start position:0%
+ 
+ 
+
+00:50:45.430 --> 00:50:45.440 align:start position:0%
+ 
+ 
+
+00:50:45.440 --> 00:50:46.309 align:start position:0%
+ 
+
+
+00:50:46.309 --> 00:50:46.319 align:start position:0%
+ 
+ 
+
+00:50:46.319 --> 00:50:47.430 align:start position:0%
+ 
+
+
+00:50:47.430 --> 00:50:47.440 align:start position:0%
+ 
+ 
+
+00:50:47.440 --> 00:50:48.630 align:start position:0%
+ 
+
+
+00:50:48.630 --> 00:50:51.510 align:start position:0%
+ 
+ 
+
+00:50:51.510 --> 00:50:53.670 align:start position:0%
+ 
+ 
+
+00:50:53.670 --> 00:50:55.270 align:start position:0%
+ 
+ 
+
+00:50:55.270 --> 00:51:00.760 align:start position:0%
+ 
+ 
+

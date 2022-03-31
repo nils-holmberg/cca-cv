@@ -28,7 +28,7 @@
 - could be used as input to word vectors
 
 ## video summarization
-- actions, actors
+- actions, actors, shot detection, data reduction
 
 ## generate new images
 - this person does not exist
