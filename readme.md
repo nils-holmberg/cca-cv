@@ -25,28 +25,38 @@
 <img src="https://github.com/nils-holmberg/cca-cv/raw/main/web/isk/image-similarity.avif" height="512">
 
 ## image classification
-- high-level content features, categories inferred from pixels
+- high-level content features, object categories inferred from pixels
 - does image contain faces, people or not, binary classification
 
 <img src="https://github.com/nils-holmberg/cca-cv/raw/main/web/isk/binary-classification-01.jpg" height="512">
 
 ## object detection
 - detect multiple basic object classes
-
-## object localization
+- typically also involves object localization
 - get bounding boxes of multiple objects
 
+<img src="https://github.com/nils-holmberg/cca-cv/raw/main/web/isk/object-detection-localization-01.png" height="512">
+
 ## semantic segmentation
+- outline actual pixels covered by each object in image
 - web page segementation, (quite difficult!)
+
+<img src="https://github.com/nils-holmberg/cca-cv/raw/main/web/isk/semantic-segmentation-01.webp" height="512">
 
 ## optical character recognition
 - extract text from images, screenshots, etc
 
+<img src="https://github.com/nils-holmberg/cca-cv/raw/main/web/isk/some.png" height="512">
+
 ## image captioning
 - could be used as input to word vectors
 
+<img src="https://github.com/nils-holmberg/cca-cv/raw/main/web/isk/some.png" height="512">
+
 ## video summarization
 - actions, actors, shot detection, data reduction
+
+<img src="https://github.com/nils-holmberg/cca-cv/raw/main/web/isk/some.png" height="512">
 
 ---
 
