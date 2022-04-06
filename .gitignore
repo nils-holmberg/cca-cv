@@ -6,10 +6,15 @@
 log/*
 src/*
 tmp/*
+img/*
+vid/*
 
 # keep empty dir
 !log/.gitkeep
 !src/.gitkeep
 !tmp/.gitkeep
+!img/some-file
+
+
 
 

@@ -31,11 +31,14 @@
 - actions, actors, shot detection, data reduction
 
 ## generate new images
-- this person does not exist
+- gans, artwork, this person does not exist
+![some](https://nils-holmberg.github.io/scom-expm/img/person/person-fn-001.jpg_output.png)
+[link](https://this-person-does-not-exist.com/en)
 
+## augmented, virtual reality
+- avatars, virtual models
 
-
-
+# computational content analysis, nlp
 
 
 
