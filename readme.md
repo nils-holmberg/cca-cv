@@ -3,6 +3,8 @@
 ## automated web scraping
 - images, videos, web pages
 
+<img src="https://github.com/nils-holmberg/cca-cv/raw/main/web/isk/website.png" width="512" height="512">
+
 ## low-level content analysis
 - pixels, colors, dimensions, edges, saliency
 
