@@ -7,7 +7,7 @@
 
 ## low-level content analysis
 - cf. "manifest content", e.g. web pages, videos
-- pixels, colors, dimensions, edges
+- pixels, color histogram, dimensions, edges
 
 <img src="https://github.com/nils-holmberg/cca-cv/raw/main/web/isk/low-level-features-01.png" height="512">
 
@@ -28,7 +28,7 @@
 - high-level content features, categories inferred from pixels
 - does image contain faces, people or not, binary classification
 
-<img src="https://github.com/nils-holmberg/cca-cv/raw/main/web/isk/binary-classification.jpg" height="512">
+<img src="https://github.com/nils-holmberg/cca-cv/raw/main/web/isk/binary-classification-01.jpg" height="512">
 
 ## object detection
 - detect multiple basic object classes
