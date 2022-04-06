@@ -31,9 +31,9 @@
 - actions, actors, shot detection, data reduction
 
 ## generate new images
-- gans, artwork, this person does not exist
-![some](https://nils-holmberg.github.io/scom-expm/img/person/person-fn-001.jpg_output.png)
-[link](https://this-person-does-not-exist.com/en)
+- gans, artwork, people
+<img src="https://nils-holmberg.github.io/scom-expm/img/person/person-fn-001.jpg_output.png" width="100" height="100">
+[this person does not exist](https://this-person-does-not-exist.com/en)
 
 ## augmented, virtual reality
 - avatars, virtual models
