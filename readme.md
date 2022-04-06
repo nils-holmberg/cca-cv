@@ -18,6 +18,8 @@
 ## image similarity
 - image embeddings, vector space, topic modelling for images
 
+<img src="https://github.com/nils-holmberg/cca-cv/raw/main/web/isk/image-similarity.avif" height="512">
+
 ## image classification
 - does image contain faces, people or not, binary classification
 
