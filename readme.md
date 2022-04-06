@@ -56,7 +56,7 @@
 ## video summarization
 - actions, actors, shot detection, data reduction
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bVXPnP8k6yo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/bVXPnP8k6yo/0.jpg)](https://www.youtube.com/watch?v=bVXPnP8k6yo)
 
 ---
 
