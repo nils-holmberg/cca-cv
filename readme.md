@@ -6,14 +6,18 @@
 <img src="https://github.com/nils-holmberg/cca-cv/raw/main/web/isk/Screenshot_2019-11-05_13-54-39.png" height="512">
 
 ## low-level content analysis
-- pixels, colors, dimensions, edges, saliency
-- cf. "manifest content", e.g. web page saliency analysis
+- cf. "manifest content", e.g. web pages, videos
+- pixels, colors, dimensions, edges
+
+<img src="https://github.com/nils-holmberg/cca-cv/raw/main/web/isk/low-level-features-01.png" height="512">
+
+## image feature extraction
+- cf. "latent content", infer content features
+- low, mid, high level features, lower are easier
 
 <img src="https://github.com/nils-holmberg/cca-cv/raw/main/web/isk/ikn-pysal.png" height="512">
 
-## image feature extraction
-- low, mid, high level features
-- cf. "latent content", 
+- image saliency is mid-level feature? more computationally intesive..
 
 ## image similarity
 - image embeddings, vector space, topic modelling for images
@@ -21,7 +25,10 @@
 <img src="https://github.com/nils-holmberg/cca-cv/raw/main/web/isk/image-similarity.avif" height="512">
 
 ## image classification
+- high-level content features, categories inferred from pixels
 - does image contain faces, people or not, binary classification
+
+<img src="https://github.com/nils-holmberg/cca-cv/raw/main/web/isk/binary-classification.jpg" height="512">
 
 ## object detection
 - detect multiple basic object classes
@@ -46,7 +53,7 @@
 ## generate new images
 - gans, artwork, people (not really content analysis)
 
-<img src="https://nils-holmberg.github.io/scom-expm/img/person/person-fn-001.jpg_output.png" width="256" height="256">
+<img src="https://nils-holmberg.github.io/scom-expm/img/person/person-fn-001.jpg_output.png" height="512">
 
 [this person does not exist](https://this-person-does-not-exist.com/en)
 
