@@ -51,12 +51,12 @@
 ## image captioning
 - could be used as input to word vectors
 
-<img src="https://github.com/nils-holmberg/cca-cv/raw/main/web/isk/some.png" height="512">
+<img src="https://github.com/nils-holmberg/cca-cv/raw/main/web/isk/image-captioning-01.png" height="512">
 
 ## video summarization
 - actions, actors, shot detection, data reduction
 
-<img src="https://github.com/nils-holmberg/cca-cv/raw/main/web/isk/some.png" height="512">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bVXPnP8k6yo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
