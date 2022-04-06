@@ -46,7 +46,7 @@
 ## optical character recognition
 - extract text from images, screenshots, etc
 
-<img src="https://github.com/nils-holmberg/cca-cv/raw/main/web/isk/some.png" height="512">
+<img src="https://github.com/nils-holmberg/cca-cv/raw/main/web/isk/ocr-01.png" height="512">
 
 ## image captioning
 - could be used as input to word vectors
