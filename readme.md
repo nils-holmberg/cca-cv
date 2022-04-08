@@ -9,7 +9,7 @@
 - cf. "manifest content", e.g. web pages, videos
 - pixels, color histogram, dimensions, edges
 
-<img src="https://github.com/nils-holmberg/cca-cv/raw/main/web/isk/low-level-features-01.png" height="512">
+<img src="https://github.com/nils-holmberg/cca-cv/raw/main/web/isk/rgb-pixel-image-01.jpg" height="512">
 
 ## image feature extraction
 - cf. "latent content", infer content features
