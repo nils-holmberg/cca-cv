@@ -81,6 +81,8 @@
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/B02wZo9aEvI/0.jpg)](https://www.youtube.com/watch?v=B02wZo9aEvI)
 
+[try demo experiment](https://script.google.com/macros/s/AKfycbxzg19e8OFh9X4fo8IHT2Y-TFvk4F2IxE69kdRv4ad8O65CFnV49G_kXpUSd1Zr9OY/exec)
+
 ## lab experiments
 - product visual saliency and visual attention (eye-tracking) 
 
