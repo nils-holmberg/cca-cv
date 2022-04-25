@@ -72,9 +72,21 @@
 
 # computational content analysis, nlp
 
+---
 
+# cognitive communication effects
 
+## survey experiments
+- advert content features and product attitude
 
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/B02wZo9aEvI/0.jpg)](https://www.youtube.com/watch?v=B02wZo9aEvI)
+
+## lab experiments
+- product visual saliency and visual attention (eye-tracking) 
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/6TLb1qtS0AM/0.jpg)](https://www.youtube.com/watch?v=6TLb1qtS0AM)
+
+---
 
 
 
