@@ -62,6 +62,7 @@
 <img src="https://github.com/nils-holmberg/cca-cv/raw/main/web/isk/semantic-segmentation-01.webp" height="512">
 
 - open question: when could object detection be useful in communication research ?
+- e.g. large scale video analysis.. 
 
 ## pose estimation
 - infer body parts and relationships
