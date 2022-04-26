@@ -9,8 +9,8 @@
 
 <img src="https://github.com/nils-holmberg/cca-cv/raw/main/web/isk/Screenshot_2019-11-05_13-54-39.png" height="512">
 
-[try out youtube-dl cmd](https://www.youtube.com/watch?v=yOhGkZ4U4lI)
-[try out youtube-dl gui](https://www.youtube.com/watch?v=TjMO0ajlaWs)
+- [try out youtube-dl cmd](https://www.youtube.com/watch?v=yOhGkZ4U4lI)
+- [try out youtube-dl gui](https://www.youtube.com/watch?v=TjMO0ajlaWs)
 
 ## low-level content analysis
 - cf. "manifest content" in web pages, videos
