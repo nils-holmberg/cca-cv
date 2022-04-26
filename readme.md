@@ -1,12 +1,20 @@
 # computational content analysis, computer vision
+- content analysis is under-utilized in communication research ?
+- visuals as content (and some reception of visuals later on)
 
 ## automated web scraping
-- images, videos, web pages
+- digital images, videos, web pages, source code
+- dont forget subtitles, automatic transcription of video
+- human coders are the gold standard, but does not scale up
 
 <img src="https://github.com/nils-holmberg/cca-cv/raw/main/web/isk/Screenshot_2019-11-05_13-54-39.png" height="512">
 
+[try out youtube-dl cmd](https://www.youtube.com/watch?v=yOhGkZ4U4lI)
+[try out youtube-dl gui](https://www.youtube.com/watch?v=TjMO0ajlaWs)
+
 ## low-level content analysis
-- cf. "manifest content", e.g. web pages, videos
+- cf. "manifest content" in web pages, videos
+- videos need to be split into frames, images
 - pixels, color histogram, dimensions, edges
 
 <img src="https://github.com/nils-holmberg/cca-cv/raw/main/web/isk/rgb-pixel-image-01.jpg" height="512">
@@ -17,7 +25,7 @@
 
 <img src="https://github.com/nils-holmberg/cca-cv/raw/main/web/isk/ikn-pysal.png" height="512">
 
-- image saliency is mid-level feature? more computationally intesive..
+- image saliency is mid-level feature? more computationally intensive..
 
 ## image similarity
 - image embeddings, vector space, topic modelling for images
@@ -32,6 +40,7 @@
 
 ## object detection
 - detect multiple basic object classes
+- face identification is a special case of this approach
 - typically also involves object localization
 - get bounding boxes of multiple objects
 
@@ -58,23 +67,14 @@
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/bVXPnP8k6yo/0.jpg)](https://www.youtube.com/watch?v=bVXPnP8k6yo)
 
----
-
-## generate new images
-- gans, artwork, people (not really content analysis)
-
-<img src="https://nils-holmberg.github.io/scom-expm/img/person/person-fn-001.jpg_output.png" height="512">
-
-[this person does not exist](https://this-person-does-not-exist.com/en)
-
-## augmented, virtual reality
-- avatars, virtual models
-
-# computational content analysis, nlp
+## computational content analysis, nlp
+- not in the visual domain, so not dealt with now
 
 ---
 
 # cognitive communication effects
+- reception of visuals
+- media psychology
 
 ## survey experiments
 - advert content features and product attitude
@@ -89,6 +89,26 @@
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/6TLb1qtS0AM/0.jpg)](https://www.youtube.com/watch?v=6TLb1qtS0AM)
 
 ---
+
+# computational content production
+- production of visuals
+
+## data visualization
+- facilitate understanding, comprehension of big data
+
+## generate new images
+- gans, artwork, people, dall-e 2 (not content analysis)
+
+<img src="https://nils-holmberg.github.io/scom-expm/img/person/person-fn-001.jpg_output.png" height="512">
+
+[this person does not exist](https://this-person-does-not-exist.com/en)
+
+## augmented, virtual reality
+- avatars, virtual models
+
+---
+
+
 
 
 
