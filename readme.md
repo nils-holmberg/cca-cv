@@ -1,11 +1,11 @@
 # computational content analysis, computer vision
 - content analysis is under-utilized in communication research ?
 - visuals as content (and some reception of visuals later on)
+- human coders are the gold standard, but does not scale up
 
 ## automated web scraping
-- digital images, videos, web pages, source code
+- digital images, videos, web pages, source code, metadata
 - dont forget subtitles, automatic transcription of video
-- human coders are the gold standard, but does not scale up
 
 <img src="https://github.com/nils-holmberg/cca-cv/raw/main/web/isk/Screenshot_2019-11-05_13-54-39.png" height="512">
 
@@ -39,18 +39,26 @@
 <img src="https://github.com/nils-holmberg/cca-cv/raw/main/web/isk/binary-classification-01.jpg" height="512">
 
 ## object detection
-- detect multiple basic object classes
+- detect multiple basic object classes, aka labelling
 - face identification is a special case of this approach
 - typically also involves object localization
 - get bounding boxes of multiple objects
 
 <img src="https://github.com/nils-holmberg/cca-cv/raw/main/web/isk/object-detection-localization-01.png" height="512">
 
+- [google vision ai](https://cloud.google.com/vision)
+- [ms computer vision](https://azure.microsoft.com/en-us/services/cognitive-services/computer-vision/#features)
+
 ## semantic segmentation
 - outline actual pixels covered by each object in image
 - web page segementation, (quite difficult!)
 
 <img src="https://github.com/nils-holmberg/cca-cv/raw/main/web/isk/semantic-segmentation-01.webp" height="512">
+
+## pose estimation
+- infer body parts and relationships
+
+<img src="https://github.com/nils-holmberg/cca-cv/raw/main/web/isk/pose-estimation-01.webp" height="512">
 
 ## optical character recognition
 - extract text from images, screenshots, etc
@@ -67,8 +75,10 @@
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/bVXPnP8k6yo/0.jpg)](https://www.youtube.com/watch?v=bVXPnP8k6yo)
 
-## computational content analysis, nlp
-- not in the visual domain, so not dealt with now
+- [google video ai](https://cloud.google.com/video-intelligence)
+
+## natural language processing, nlp
+- not in the visual domain, so not dealt with here
 
 ---
 
@@ -90,7 +100,7 @@
 
 ---
 
-# computational content production
+# computational content generation
 - production of visuals
 
 ## data visualization
