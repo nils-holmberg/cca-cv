@@ -51,8 +51,8 @@
 
 <img src="https://github.com/nils-holmberg/cca-cv/raw/main/web/isk/object-detection-localization-01.png" height="512">
 
-- [google vision ai](https://cloud.google.com/vision)
-- [ms computer vision](https://azure.microsoft.com/en-us/services/cognitive-services/computer-vision/#features)
+- [try it at google vision ai](https://cloud.google.com/vision)
+- [try it at ms computer vision](https://azure.microsoft.com/en-us/services/cognitive-services/computer-vision/#features)
 - open question: when could object detection be useful in communication research ?
 
 ## semantic segmentation
