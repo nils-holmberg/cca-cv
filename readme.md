@@ -1,6 +1,6 @@
 # computational content analysis, computer vision
-- content analysis is under-utilized in communication research ?
 - visuals as content (and some reception of visuals later on)
+- content analysis is under-utilized in communication research ?
 - human coders are the gold standard, but does not scale up
 
 ## automated web scraping
@@ -28,6 +28,7 @@
 - image saliency is mid-level feature? more computationally intensive..
 
 ## image similarity
+- understand, infer relationships between images
 - image embeddings, vector space, topic modelling for images
 
 <img src="https://github.com/nils-holmberg/cca-cv/raw/main/web/isk/image-similarity.avif" height="512">
@@ -37,6 +38,10 @@
 - does image contain faces, people or not, binary classification
 
 <img src="https://github.com/nils-holmberg/cca-cv/raw/main/web/isk/binary-classification-01.jpg" height="512">
+
+- [try an image classifier](https://teachablemachine.withgoogle.com/)
+- open question: when could binary image classification be useful in communication research ?
+- e.g. distinguish content from advertising..
 
 ## object detection
 - detect multiple basic object classes, aka labelling
@@ -48,6 +53,7 @@
 
 - [google vision ai](https://cloud.google.com/vision)
 - [ms computer vision](https://azure.microsoft.com/en-us/services/cognitive-services/computer-vision/#features)
+- open question: when could object detection be useful in communication research ?
 
 ## semantic segmentation
 - outline actual pixels covered by each object in image
@@ -55,8 +61,11 @@
 
 <img src="https://github.com/nils-holmberg/cca-cv/raw/main/web/isk/semantic-segmentation-01.webp" height="512">
 
+- open question: when could object detection be useful in communication research ?
+
 ## pose estimation
 - infer body parts and relationships
+- if applied to face images, becomes image sentiment analysis
 
 <img src="https://github.com/nils-holmberg/cca-cv/raw/main/web/isk/pose-estimation-01.webp" height="512">
 
@@ -69,6 +78,8 @@
 - could be used as input to word vectors
 
 <img src="https://github.com/nils-holmberg/cca-cv/raw/main/web/isk/image-captioning-01.png" height="512">
+
+- open question: when could image captioning  be useful in communication research ?
 
 ## video summarization
 - actions, actors, shot detection, data reduction
