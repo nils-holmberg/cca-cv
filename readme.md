@@ -103,7 +103,7 @@
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/B02wZo9aEvI/0.jpg)](https://www.youtube.com/watch?v=B02wZo9aEvI)
 
-[try demo experiment](https://script.google.com/macros/s/AKfycbxzg19e8OFh9X4fo8IHT2Y-TFvk4F2IxE69kdRv4ad8O65CFnV49G_kXpUSd1Zr9OY/exec)
+- [try demo experiment](https://script.google.com/macros/s/AKfycbxzg19e8OFh9X4fo8IHT2Y-TFvk4F2IxE69kdRv4ad8O65CFnV49G_kXpUSd1Zr9OY/exec)
 
 ## lab experiments
 - product visual saliency and visual attention (eye-tracking) 
@@ -123,7 +123,7 @@
 
 <img src="https://nils-holmberg.github.io/scom-expm/img/person/person-fn-001.jpg_output.png" height="512">
 
-[this person does not exist](https://this-person-does-not-exist.com/en)
+- [this person does not exist](https://this-person-does-not-exist.com/en)
 
 ## augmented, virtual reality
 - avatars, virtual models
