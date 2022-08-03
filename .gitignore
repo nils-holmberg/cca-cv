@@ -6,7 +6,6 @@
 log/*
 src/*
 tmp/*
-img/*
 vid/*
 
 # keep empty dir
