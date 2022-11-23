@@ -40,6 +40,7 @@
 <img src="https://github.com/nils-holmberg/cca-cv/raw/main/web/isk/binary-classification-01.jpg" height="512">
 
 - [try an image classifier](https://teachablemachine.withgoogle.com/)
+- [some instructions here](https://www.youtube.com/playlist?list=PLJfHZtseuscuTQfodmFnbZ3rBgCWsRT9t)
 - open question: when could binary image classification be useful in communication research ?
 - e.g. distinguish content from advertising..
 
