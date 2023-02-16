@@ -10,11 +10,11 @@ tmp/*
 vid/*
 
 # keep empty dir
+!img/some-file
 !log/.gitkeep
 !src/.gitkeep
 !tmp/.gitkeep
-!img/some-file
-
+!vid/scom-tour-170.mp4
 
 
 
