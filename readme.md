@@ -3,6 +3,13 @@
 - content analysis is under-utilized in communication research ?
 - human coders are the gold standard, but does not scale up
 
+## projects
+
+- [scom-gpols](https://nils-holmberg.github.io/cca-cv/web/scom-gpols.html)
+
+- [internal repo](https://github.com/nils-holmberg/cca-cv/)
+- [external website](https://nils-holmberg.github.io/cca-cv/)
+
 ## automated web scraping
 - digital images, videos, web pages, source code, metadata
 - dont forget subtitles, automatic transcription of video
